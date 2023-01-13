@@ -1,10 +1,12 @@
 ---
-title: Home
+title: Team 304 Project Title
 ---
 
-# Home
+# Team 304 Project Title
 
-## Introduction
+## EGR 314  Spring 2023
+
+### * Levi Transtrum
 
 **Bold Text**
 _Italic Text_
