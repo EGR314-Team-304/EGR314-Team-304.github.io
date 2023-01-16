@@ -7,7 +7,7 @@ title: Team 304 Project Title
 ## EGR 314  Spring 2023
 
 * Levi Transtrum
-* 
+* Trent Packer
 * 
 * 
 
