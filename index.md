@@ -8,7 +8,7 @@ title: Team 304 Project Title
 
 * Levi Transtrum
 * Trent Packer
-* 
+* Brendon Salido
 * 
 
 ### **Our Vision**
