@@ -29,7 +29,55 @@ Correspondence with the instructor will be prioritized in person with correspond
 
 | People  	| Abbreviation 	| Email                   	| Phone        	|
 |---------	|--------------	|-------------------------	|--------------	|
-| Trent   	|   T            	| tpacker1@asu.edu        	| 480-737-1411 	|
-| Cayman  	|   C            	| caymanpreston@gmail.com 	| 480-612-7583 	|
-| Brendon 	|   B            	| bsalido@asu.edu         	| 480-469-0739 	|
-| Levi    	|   L            	| ltranstr@asu.edu        	| 208-219-4103 	|
+| Trent   	| T            	| tpacker1@asu.edu        	| 480-737-1411 	|
+| Cayman  	| C            	| caymanpreston@gmail.com 	| 480-612-7583 	|
+| Brendon 	| B            	| bsalido@asu.edu         	| 480-469-0739 	|
+| Levi    	| L            	| ltranstr@asu.edu        	| 208-219-4103 	|
+
+| Time     	| Sunday 	|  Monday 	| Tuesday 	| Wednesday 	| Thursday 	|  Friday 	| Saturday 	|
+|----------	|:------:	|:-------:	|:-------:	|:---------:	|:--------:	|:-------:	|:--------:	|
+|  8:00 AM 	|        	|   T,B   	|         	|    T,B    	|          	|   L,B   	|     L    	|
+|  9:00 AM 	|        	|   T,B   	|         	|    T,B    	|          	|   L,B   	|    L,T   	|
+| 10:00 AM 	|        	|   T,B   	|         	|    T,B    	|          	|   L,B   	|   L,T,C  	|
+| 11:00 AM 	|        	|   T,B   	|    B    	|    T,B    	|     B    	|   L,B   	|   L,T,C  	|
+| 12:00 PM 	|   B,C  	|   T,B   	|   B,C   	|    T,B    	|    B,C   	|   L,B   	|  **L,T,B,C** 	|
+|  1:00 PM 	|   B,C  	|    T    	|   B,C   	|     T     	|    B,C   	|   L,B   	|  **L,T,B,C** 	|
+|  2:00 PM 	|   B,C  	|    T    	|   B,C   	|     T     	|    B,C   	|   L,B   	|  **L,T,B,C** 	|
+|  3:00 PM 	|   B,C  	|    B    	|   B,C   	|     B     	|    B,C   	|   L,B   	|   L,T,B  	|
+|  4:00 PM 	|   B,C  	|    B    	|   B,C   	|     B     	|    B,C   	|   L,B   	|   L,T,B  	|
+|  5:00 PM 	|   B,C  	|    B    	|    B    	|     B     	|     B    	|   L,B   	|    L,B   	|
+|  6:00 PM 	|   B,C  	| **T,B,C,L** 	|         	|  **T,B,C,L**  	|          	|   L,B   	|    L,B   	|
+|  7:00 PM 	|   B,C  	|         	|    T    	|           	|     T    	|   L,B   	|    L,B   	|
+|  8:00 PM 	|   B,C  	|    L    	|   L,T   	|     L     	|    L,T   	| **L,T,B,C**	|    L,B   	|
+|  9:00 PM 	|   B,C  	|   L,C   	|  L,T,C  	|    L,C    	|   L,T,C  	| **L,T,B,C** 	|    L,B   	|  
+
+### Meeting Coordination
+*What method will you use to remind yourselves of meetings?*  
+> Whenever we plan to have a meeting, we will iterate and reiterate the details of it through Discord. Reminders and “check-ins” will be provided as the meeting time nears to ensure members are updated. 
+
+*How will your team go about changing or adding meeting times?*  
+> Any required changes or additions to our meeting times would be presented on Discord for other members to see and discuss. 
+
+*What’s the preferred format for meetings?*  
+> The preferred method of meetings would be on a dedicated voice channel on Discord outside of school hours. 
+
+*Are there any other procedures that your team feels are necessary? Describe them.*  
+> Due to busy schedules, we may find it best to plan and attend virtual group meetings as group assignments become available conducive to staying on track with them. In this way, we would have a sufficient number of meetings without overloading our schedule with more meetings than necessary. 
+
+### Team Coordination
+*How will we ensure that assignments are submitted before deadlines and each team member has “signed off” on each submitted assignment?*  
+> There will be frequent reminders sent to team members informing them of what needs to be done before a given deadline. When team members work on adding content to any pending deliverables, there will be updates on Discord about the progress made and what may still need some work. Before the submission is to be turned in, team members would be asked if everything they see in the corresponding deliverable is to their liking, assuming time permits. If everyone who contributed agrees with the state of the deliverable, one of the selected team members would then submit that assignment and announce its submission to the other team members.
+
+*How will we ensure that each team member has the knowledge and skill required for each assignment, and how we will adjust if not?*  
+> Any issues encountered involving shortage of skill or knowledge for a given assignment would be discussed amongst each other, either in person or through Discord. Through these discussions, we would determine a proper course of action to rectify the issue to complete the assignment in a timely and efficient manner.
+
+*How will we ensure that feedback from our design review is distributed to and acted on by every member of the team?*  
+> Any feedback that needs to be communicated to team members will be done so primarily through Discord. This provides an easy way for team members to access that feedback that needs to be implemented to prepare an assignment for submission. This method would also ensure that feedback will not get lost in translation and can be referenced without loss of detail. 
+
+### Signatures (Electronic)
+
+***Brendon Salido***  
+***Cayman Preston***  
+***Trent Packer***  
+***Levi Transtrum***
+
