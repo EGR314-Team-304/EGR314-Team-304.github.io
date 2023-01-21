@@ -22,5 +22,6 @@ After establishing these goals, we developed the following Team Charter and Miss
 
 ### Product Mission Statement
 
-> *“To leverage each of our team member’s areas of expertise to design and build a reliable, attractive, and functional weather station with a small form factor. The product will solve a real world environmental problem using sensors and actuators. Our product will be similar in quality to commercially available, professionally designed products.”*
+> *“To leverage each of our team member’s areas of expertise to design and build a reliable, attractive, and functional weather station with a small form factor. The product will solve a real world environmental problem using sensors and actuators. Our product will be similar in quality to commercially available, professionally designed products.”*  
 
+See [Appendix A](Appendix-A) for further Team Organization content.
