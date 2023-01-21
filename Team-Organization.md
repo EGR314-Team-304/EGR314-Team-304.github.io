@@ -1,8 +1,8 @@
 # Team Organization
 
-## **Team 304**
+### **Team 304**
 
-#### **Trent Packer, Cayman Preston, Brendon Salido & Levi Transtrum**
+##### **Trent Packer, Cayman Preston, Brendon Salido & Levi Transtrum**
 
 &nbsp;
 &nbsp;
@@ -20,7 +20,7 @@ After establishing these goals, we developed the following Team Charter and Miss
 
 &nbsp;
 
-## Product Mission Statement
+### Product Mission Statement
 
 > *“To leverage each of our team member’s areas of expertise to design and build a reliable, attractive, and functional weather station with a small form factor. The product will solve a real world environmental problem using sensors and actuators. Our product will be similar in quality to commercially available, professionally designed products.”*
 
