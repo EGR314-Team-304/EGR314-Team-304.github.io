@@ -12,3 +12,9 @@
 ![Sorry you're blind!](./images/design-ideation-images/image2.jpg "Design Ideation Image 2")
 ![Sorry you're blind!](./images/design-ideation-images/image12.jpg "Design Ideation Image 12")
 ![Sorry you're blind!](./images/design-ideation-images/image4.jpg "Design Ideation Image 4")
+
+&nbsp;
+
+&nbsp;
+
+[< Back to home](./index.md)

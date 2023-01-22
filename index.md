@@ -1,15 +1,32 @@
 ---
-title: Team 304 Project Title
+title: Team 304 Homepage
 ---
 
-# Team 304 Project Title
+# Remote Weather Station
 
-## EGR 314  Spring 2023
+## Team 304  
+
+&nbsp;
+
+### Team members:
 
 * Levi Transtrum
 * Trent Packer
 * Brendon Salido
-* CAYMAN PRESTON
+* Cayman Preston
 
-### **Our Vision**
-Our team aims to produce a weather station that distinguishes us from the rest of the class. By simplifying our electrical design and creating an attractive housing, we will design and produce a product that we can include in our resumes.
+&nbsp;
+
+###  January 23rd, 2023
+
+&nbsp;
+
+## Arizona State University &nbsp; **·** &nbsp; EGR 314 &nbsp;  **·** &nbsp; Travis Kelley
+
+
+&nbsp;
+
+&nbsp;
+
+
+Jump to: [Team Organization](./Team-Organization.md) **·** [User Needs](./user-needs.md) **·** [Design Ideation](./design-ideation.md) **·** [Appendix A](./Appendix-A.md) **·** [Appendix B](./Appendix-B.md)

@@ -189,3 +189,8 @@
 |  | Device must have reliable hardware (Latent) |
 |  | Device should withstand all conditions (Latent) |
 
+&nbsp;
+
+&nbsp;
+
+[< Back to home](./index.md)

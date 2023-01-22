@@ -22,3 +22,9 @@ After establishing these goals, we developed the following Team Charter and Miss
 &nbsp;
 
 See [Appendix A](Appendix-A) for further Team Organization content.
+
+&nbsp;
+
+&nbsp;
+
+[< Back to home](./index.md)
