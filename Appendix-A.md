@@ -2,6 +2,8 @@
 
 ## Additional Content from the Team Organization Assignment 
 
+&nbsp;
+
 ### Goals
 
 1. Yield a final product that is a functioning and independent device that can perform in the Innovation Showcase.  
@@ -9,6 +11,8 @@
 3. Obtain a greater understanding of serial protocol communication, the different types of serial protocols available, and how they can function in unison within the application of our product.  
 4. Create a robust and reliable electrical design.  
 5. Design and build a product that can add to each of our resumes. 
+
+&nbsp;
 
 ### Communication Channels
 
@@ -19,11 +23,15 @@
 | Brendon Salido |           Discord          |             Text            |           Canvas           |
 | Levi Transtum  |           Discord          |             Text            |            Email           |
 
+&nbsp;
+
 ### Communication Procedures
 
 We plan to communicate primarily through Discord. In this way, we would be able to push multiple targeted notifications to each other and increase productivity and efficiency in communication using the tools available in this communication channel. Synchronous communication is also possible via voice channels if more synchronized or immediate feedback is necessary. Text, Canvas, and email are limited in utility. Text is more easily accessed and lacks the tools available in Discord, but it would suffice. Canvas and email would be a last resort for sending messages to members in worst case scenarios where messages from the other two channels are inaccessible.  
 
 Correspondence with the instructor will be prioritized in person with correspondence via email being next in terms of priority. For any matter that our team needs to communicate, we will discuss who would be responsible for that correspondence for that given matter either in person or using one the three provided channels of communication.
+
+&nbsp;
 
 ### Meeting Schedule
 
@@ -33,6 +41,8 @@ Correspondence with the instructor will be prioritized in person with correspond
 | Cayman  	| C            	| caymanpreston@gmail.com 	| 480-612-7583 	|
 | Brendon 	| B            	| bsalido@asu.edu         	| 480-469-0739 	|
 | Levi    	| L            	| ltranstr@asu.edu        	| 208-219-4103 	|
+
+&nbsp;
 
 | Time     	| Sunday 	|  Monday 	| Tuesday 	| Wednesday 	| Thursday 	|  Friday 	| Saturday 	|
 |----------	|:------:	|:-------:	|:-------:	|:---------:	|:--------:	|:-------:	|:--------:	|
@@ -51,7 +61,10 @@ Correspondence with the instructor will be prioritized in person with correspond
 |  8:00 PM 	|   B,C  	|    L    	|   L,T   	|     L     	|    L,T   	| **L,T,B,C**	|    L,B   	|
 |  9:00 PM 	|   B,C  	|   L,C   	|  L,T,C  	|    L,C    	|   L,T,C  	| **L,T,B,C** 	|    L,B   	|  
 
+&nbsp;
+
 ### Meeting Coordination
+
 *What method will you use to remind yourselves of meetings?*  
 > Whenever we plan to have a meeting, we will iterate and reiterate the details of it through Discord. Reminders and “check-ins” will be provided as the meeting time nears to ensure members are updated. 
 
@@ -73,6 +86,8 @@ Correspondence with the instructor will be prioritized in person with correspond
 
 *How will we ensure that feedback from our design review is distributed to and acted on by every member of the team?*  
 > Any feedback that needs to be communicated to team members will be done so primarily through Discord. This provides an easy way for team members to access that feedback that needs to be implemented to prepare an assignment for submission. This method would also ensure that feedback will not get lost in translation and can be referenced without loss of detail. 
+
+&nbsp;
 
 ### Signatures (Electronic)
 
