@@ -29,4 +29,4 @@ title: Team 304 Homepage
 &nbsp;
 
 
-Jump to: [Team Organization](./Team-Organization.md) **·** [User Needs](./user-needs.md) **·** [Design Ideation](./design-ideation.md) **·** [Appendix A](./Appendix-A.md) **·** [Appendix B](./Appendix-B.md)
+Jump to: [Team Organization](./Team-Organization.md) **·** [User Needs](./user-needs.md) **·** [Design Ideation](./design-ideation.md) **·** [Appendix A](./Appendix-A.md) **·** [Appendix B](./Appendix-B.md) **·** [Checkpoint 1 Presentation](./checkpoint_1_presentation.md)
