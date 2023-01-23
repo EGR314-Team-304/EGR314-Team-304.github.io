@@ -35,7 +35,8 @@ For the second concept, a hilt-like handheld device was considered. With folding
 ![Sorry you're blind!](./images/design-ideation-images/image12.jpg "Design Ideation Image 12")
 ![Sorry you're blind!](./images/design-ideation-images/image4.jpg "Design Ideation Image 4")
 
-[Filler for Levi to add description for Concept Sketch #3]
+Our third design concept revolved around solving a problem that plant owners sometimes encounter: Keeping a plant hydrated while away. This design would seek to measure the humidity level of the soil and the ambient temperature. When the humidity drops or the temperature becomes too high, an actuator would be triggered to dispense water and hydrate the plant. The plant owner would be able to remotely monitor the humidity and temperature and view how much water had been dispensed. The design would be powered by a wall adapter for simplicity and reliability.
+
 
 &nbsp;
 
