@@ -21,7 +21,7 @@ After establishing these goals, we developed the following Team Charter and Miss
 
 &nbsp;
 
-See [Appendix A](Appendix-A) for further Team Organization content.
+See [Appendix A](./Appendix-A.md) for further Team Organization content.
 
 &nbsp;
 
