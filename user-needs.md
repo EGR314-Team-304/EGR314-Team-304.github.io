@@ -112,7 +112,7 @@ Our team employed a comprehensive methodology to identify and prioritize user ne
 > 1. Device offers a feature that more affordable alternatives do not offer.   
 > 1. The product must be affordable to own and maintain, not just to purchase.   
 
-In order to effectively organize and prioritize these needs, we assigned them to five categories: Mechanical, Electronic, Software, Back End, and Other. This categorization allowed for clear and efficient communication and reasoning within our team as we worked to rank the needs by priority. The importance of each need was determined through a collaborative process on [**this Google Jamboard**](https://jamboard.google.com/d/1In28mVD_horjKMaDQrNpOpYlQ2rOk_49XHPvBdQrUTo/edit?usp=sharing), where the team discussed over voice chat and assigned weights to the needs based on their perceived impact on the overall user experience. Screenshots of each step of this process can be found in [Appendix B](Appendix-B.).
+In order to effectively organize and prioritize these needs, we assigned them to five categories: Mechanical, Electronic, Software, Back End, and Other. This categorization allowed for clear and efficient communication and reasoning within our team as we worked to rank the needs by priority. The importance of each need was determined through a collaborative process on [**this Google Jamboard**](https://jamboard.google.com/d/1In28mVD_horjKMaDQrNpOpYlQ2rOk_49XHPvBdQrUTo/edit?usp=sharing), where the team discussed over voice chat and assigned weights to the needs based on their perceived impact on the overall user experience. Screenshots of each step of this process can be found in [Appendix B](./Appendix-B.md).
 
 &nbsp;
 
