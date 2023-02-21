@@ -308,19 +308,26 @@ Our third design concept revolved around solving a problem that plant owners som
 &nbsp;
 
 
-
 ## Component Selection
 
 ### Introduction
 
 <!--- Add introductory information here for what this assignment was supposed to do. -->
 
-&nbsp;
-
 <!--- Use Markdown conversion to get the Google Doc moved into this portion. Use only the components that were /actually/ selected for the main write-up.
       Make a new Appendix to fully go through the entire list of components that weren't chosen. -->
 
+&nbsp;
+
+
 ## Microcontroller Selection
+
+<!--- Add introductory information here -->
+
+<!--- Use Markdwon conversion to get the Google Doc moved into this portion. -->
+
+&nbsp;
+
 
 ## Software Proposal
 
