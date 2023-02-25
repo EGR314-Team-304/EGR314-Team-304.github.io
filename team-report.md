@@ -2,6 +2,36 @@
 
 &nbsp;
 
+## Table of Contents
+### Team Organization
+#### - Establishing the Team
+#### - Charter
+#### - Product Mission Statement
+### User Needs, Benchmarking, and Requirements
+#### - Objectives
+#### - Stakeholders
+#### - Use Cases
+#### - User Needs
+#### - Aspects
+#### - Open Questions
+#### - Milestones
+### Design Ideation
+#### - Brainstorming Ideas
+#### - Grouped and Sorted Ideas
+#### - Product Concept Sketch #1 - Dynamic Remote Weather Station
+#### - Product Concept Sketch #2 - Handheld Weather Station
+#### - Product Concept Sketch #3 - Automatic Plant Hydrator
+### Block Diagram
+### Component Selection
+### Microcontroller Selection
+### Software Proposal
+#### - Software Proposal UML Activity Diagram
+#### - Functionality
+#### - Rationale
+### Hardware Proposal
+
+&nbsp;
+
 ## Team Organization
 
 ### Establishing the Team
