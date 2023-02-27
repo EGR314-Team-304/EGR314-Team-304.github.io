@@ -3,7 +3,7 @@ Team 304 Homepage:
 ---
 | [Team Report](./team-report.md) |
 
-| [Team Organization](./Team-Organization.md) | [User Needs](./user-needs.md) | [Design Ideation](./design-ideation.md) | [Block Diagram](./block-diagram.md) | [Component Selection](./component-selection.md) | [Microcontroller Selection](./microcontroller-selection.md) | [Software Proposal](./software-proposal.md) | [Hardware Proposal](./hardware-proposal.md) | [Checkpoint 1 Presentation](./checkpoint_1_presentation.md) |
+| [Team Organization](./Team-Organization.md) | [User Needs](./user-needs.md) | [Design Ideation](./design-ideation.md) | [Block Diagram](./block-diagram.md) | [Component Selection](./component-selection.md) | [Microcontroller Selection](./microcontroller-selection.md) | [Software Proposal](./software-proposal.md) | [Hardware Proposal](./hardware-proposal.md) |
 
 # Remote Weather Station
 
@@ -24,6 +24,6 @@ Team 304 Homepage:
 
 &nbsp;
 
-Jump to: [Team Report](./team-report.md) **·** [Team Organization](./Team-Organization.md) **·** [User Needs](./user-needs.md) **·** [Design Ideation](./design-ideation.md) **·** [Block Diagram](./block-diagram.md) **·** [Component Selection](./component-selection.md) **·** [Microcontroller Selection](./microcontroller-selection.md) **·** [Software Proposal](./software-proposal.md) **·** [Hardware Proposal](./hardware-proposal.md) **·** [Appendix A](./Appendix-A.md) **·** [Appendix B](./Appendix-B.md) **·** [Checkpoint 1 Presentation](./checkpoint_1_presentation.md)
+Jump to: [Appendix A](./Appendix-A.md) **·** [Appendix B](./Appendix-B.md) **·** [Checkpoint 1 Presentation](./checkpoint_1_presentation.md)
 
 Created: January 23rd, 2023
