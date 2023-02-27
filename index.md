@@ -24,6 +24,11 @@ Team 304 Homepage:
 
 &nbsp;
 
+## Checkpoint 1 Presentation
+[![Checkpoint 1 Presentation](./images/design-ideation-images/Checkpoint1PresentationThumbnail.JPG "Checkpoint 1 Presentation Thumbnail")](https://www.youtube.com/watch?v=TLzWeIzh0lc&ab_channel=CaymanPreston "Checkpoint 1 Presentation")
+
+&nbsp;
+
 Jump to: [Appendix A](./Appendix-A.md) **·** [Appendix B](./Appendix-B.md) **·** [Checkpoint 1 Presentation](./checkpoint_1_presentation.md)
 
 Created: January 23rd, 2023
