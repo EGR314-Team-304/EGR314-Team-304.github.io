@@ -3,32 +3,50 @@
 &nbsp;
 
 ## Table of Contents
-### Team Organization
-#### - Establishing the Team
-#### - Charter
-#### - Product Mission Statement
-### User Needs, Benchmarking, and Requirements
-#### - Objectives
-#### - Stakeholders
-#### - Use Cases
-#### - User Needs
-#### - Aspects
-#### - Open Questions
-#### - Milestones
-### Design Ideation
-#### - Brainstorming Ideas
-#### - Grouped and Sorted Ideas
-#### - Product Concept Sketch #1 - Dynamic Remote Weather Station
-#### - Product Concept Sketch #2 - Handheld Weather Station
-#### - Product Concept Sketch #3 - Automatic Plant Hydrator
-### Block Diagram
-### Component Selection
-### Microcontroller Selection
-### Software Proposal
-#### - Software Proposal UML Activity Diagram
-#### - Functionality
-#### - Rationale
-### Hardware Proposal
+
+Team Organization
+
+- Establishing the Team
+- Charter
+- Product Mission Statement
+
+User Needs, Benchmarking, and Requirements
+
+- Objectives
+- Stakeholders
+- Use Cases
+- User Needs
+- Aspects
+- Open Questions
+- Milestones
+
+Design Ideation
+
+- Brainstorming Ideas
+- Grouped and Sorted Ideas
+- Product Concept Sketch #1 - Dynamic Remote Weather Station
+- Product Concept Sketch #2 - Handheld Weather Station
+- Product Concept Sketch #3 - Automatic Plant Hydrator
+
+Block Diagram
+
+Component Selection
+
+Microcontroller Selection
+
+Software Proposal
+
+- Software Proposal UML Activity Diagram
+- Functionality
+- Rationale
+
+Hardware Proposal
+
+&nbsp;
+
+## Table of Figures
+
+<!--- Populate this table with Figure and table names. Be sure to give every figure and table a name.-->
 
 &nbsp;
 
@@ -340,8 +358,6 @@ Our third design concept revolved around solving a problem that plant owners som
 
 
 ## Component Selection
-
-### Introduction
 
 <!--- Add introductory information here for what this assignment was supposed to do. -->
 
