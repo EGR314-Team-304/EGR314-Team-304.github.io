@@ -2,7 +2,7 @@
 
 <!--- Add introductory information regarding the Block Diagram here -->
 
-<!--- Include a photo of the finished Block Diagram here. Upload it to the .images folder then load it in here. -->
+![Block Diagram](./images/design-ideation-images/Team_304_Block_Diagram_New.jpg "Team 304 Block Diagram")
 
 <!--- Add additional information to complement the Block Diagram's info here. Refer reader to an additional Appendix if we need it for this portion -->
 
