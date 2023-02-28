@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-[Team Organization](https://github.com/EGR314-Team-304/EGR314-Team-304.github.io/blob/main/team-report.md#team-organization)
+[Team Organization](/blob/main/team-report.md#team-organization)
 
 - Establishing the Team
 - Charter
