@@ -88,8 +88,24 @@ The reason we went with the 3.7V batteries is because this would remove the need
 The reason we went with option 1 was because of the price and the I2C protocol. We’ve been informed that the I2C protocol is easiest when coding an LCD screen. We also determined that our final product will be relatively small so the small size of the OLED will be perfect for our device.
 
 ## Power Budget
+<!--- Add a tiny bit of connective tissue here for flow.-->
 
-<!--- Add screenshots of the Power Budget and add it here with a small description to explain what's going on in it.-->
+| Name Of Component                  | Voltage | Nominal Current Supply(mA) |
+|------------------------------------|---------|----------------------------|
+| Battery                            |     3.6 |                       2200 |
+| Motor                              |     3.6 |                        -20 |
+| 3.3V Regulator                     |     3.3 |                        -75 |
+| PIC18                              |     3.3 |                       -100 |
+| Motor Controller                   |     3.3 |                        -20 |
+| Temperature Sensor                 |     3.3 |                     -0.003 |
+| Relative Humidity Sensor           |     3.3 |                     -0.004 |
+| ESP32                              |     3.3 |                       -500 |
+|              Battery Current Left: |         |                   1484.993 |
+|         Current Draw on Regulator: |         |                    695.007 |
+| Current Output Limit on Regulator: |         |                       1000 |
+|            Regulator Current Left: |         |                    304.993 |
+
+<!--- Add a small description to explain what's going on in it.-->
 
 &nbsp;
 
@@ -103,7 +119,8 @@ The reason we went with option 1 was because of the price and the I2C protocol. 
 
 ## Hardware Proposal
 
-<!--- Include PDF of the complete schematic, ensure it's able to be clicked on and include a little description noting the ability to click on it to zoom in.-->
+[![Team 304 Schematic](./images/design-ideation-images/Team304Schematic.JPG "Hardware Proposal JPG Image")](./images/design-ideation-images/Team304Schematic.pdf "Hardware Proposal")
+[Click the schematic image for PDF view]
 
 <!--- Include a description to go over the different components in a general sense.-->
 
