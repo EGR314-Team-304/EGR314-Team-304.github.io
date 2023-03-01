@@ -1,4 +1,4 @@
-# <div align="center">Checkpoint 2 Presentation - Team 304 - Portable Weather Station & Portable Personal Fan</div>
+<h1 align="center">Checkpoint 2 Presentation - Team 304 - Portable Weather Station & Portable Personal Fan</h1>
 
 &nbsp;
 
@@ -19,7 +19,7 @@
 
 <!--- Add an included description for these images.-->
 
-![Design User Needs](./images/design-ideation-images/Selected_Design_User_Needs_Table.pdf "Selected Design User Needs")
+![Design User Needs](./images/design-ideation-images/Selected_Design_User_Needs_Table.JPG "Selected Design User Needs")
 
 <!--- Consider adding a little description here.-->
 
@@ -29,7 +29,7 @@
 
 Once we developed out final project design concept, we then developed a block diagram to identify the individual subsystems needed to fulfil the project requirements and develop our project. We separted our design into four main subsystems: Power Supply subsystem, Microcontroller and OLED subsystem, Temperature Sensor subsystem, Humidity Sensor subsystem, and Motor Controller subsystem.
 
-![Team 304 Block Diagram (New) drawio](https://user-images.githubusercontent.com/122584348/222219878-aacbeb23-33ac-41aa-a3fc-0bcd7230c282.svg)
+![Block Diagram](./images/design-ideation-images/Team_304_Block_Diagram_(New)_SVG.svg "Team 304 Block Diagram")
 
 The Power Subystem uses a switching voltage regulator to output 3.3V to supply power to the microcontroller, temperature sensor, and humidity sensor. The Microcontrooler is an 8-bit microcontroller with MQTT, UART, PWM, SPI and I2C which fulfills project requirements. The Temperature sensor and Humidity sensor run on I2C protocol which fulfills one of the communication protocol requirements. The Motor Controller subsystem drives the motor using SPI communication protocol which fulfills project requirements. All components are surface-mount components and each pinout is labeled on the microcontroller block with their specific communication protocols.
 
