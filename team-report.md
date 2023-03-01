@@ -4,43 +4,43 @@
 
 ## Table of Contents
 
-[Team Organization](/blob/main/team-report.md#team-organization)
+[Team Organization](https://egr314-team-304.github.io/team-report.html#team-organization)
 
-- Establishing the Team
-- Charter
-- Product Mission Statement
+- [Establishing the Team](https://egr314-team-304.github.io/team-report.html#establishing-the-team)
+- [Charter](https://egr314-team-304.github.io/team-report.html#charter)
+- [Product Mission Statement](https://egr314-team-304.github.io/team-report.html#product-mission-statement)
 
-User Needs, Benchmarking, and Requirements
+[User Needs, Benchmarking, and Requirements](https://egr314-team-304.github.io/team-report.html#user-needs-benchmarking-and-requirements)
 
-- Objectives
-- Stakeholders
-- Use Cases
-- User Needs
-- Aspects
-- Open Questions
-- Milestones
+- [Objectives](https://egr314-team-304.github.io/team-report.html#objectives)
+- [Stakeholders](https://egr314-team-304.github.io/team-report.html#stakeholders)
+- [Use Cases](https://egr314-team-304.github.io/team-report.html#use-cases)
+- [User Needs](https://egr314-team-304.github.io/team-report.html#user-needs)
+- [Aspects](https://egr314-team-304.github.io/team-report.html#aspects)
+- [Open Questions](https://egr314-team-304.github.io/team-report.html#open-questions)
+- [Milestones](https://egr314-team-304.github.io/team-report.html#milestones)
 
-Design Ideation
+[Design Ideation](https://egr314-team-304.github.io/team-report.html#design-ideation)
 
-- Brainstorming Ideas
-- Grouped and Sorted Ideas
-- Product Concept Sketch #1 - Dynamic Remote Weather Station
-- Product Concept Sketch #2 - Handheld Weather Station
-- Product Concept Sketch #3 - Automatic Plant Hydrator
+- [Brainstorming Ideas](https://egr314-team-304.github.io/team-report.html#brainstorming-ideas)
+- [Grouped and Sorted Ideas]()
+- [Product Concept Sketch #1 - Dynamic Remote Weather Station]()
+- [Product Concept Sketch #2 - Handheld Weather Station]()
+- [Product Concept Sketch #3 - Automatic Plant Hydrator]()
 
-Block Diagram
+[Block Diagram]()
 
-Component Selection
+[Component Selection]()
 
-Microcontroller Selection
+[Microcontroller Selection]()
 
-Software Proposal
+[Software Proposal]()
 
-- Software Proposal UML Activity Diagram
-- Functionality
-- Rationale
+- [Software Proposal UML Activity Diagram]()
+- [Functionality]()
+- [Rationale]()
 
-Hardware Proposal
+[Hardware Proposal]()
 
 &nbsp;
 
@@ -188,6 +188,7 @@ Our team employed a comprehensive methodology to identify and prioritize user ne
 > 1. Fast customer service.   
 > 1. Device offers a feature that more affordable alternatives do not offer.   
 > 1. The product must be affordable to own and maintain, not just to purchase.   
+
 In order to effectively organize and prioritize these needs, we assigned them to five categories: Mechanical, Electronic, Software, Back End, and Other. This categorization allowed for clear and efficient communication and reasoning within our team as we worked to rank the needs by priority. The importance of each need was determined through a collaborative process on [**this Google Jamboard**](https://jamboard.google.com/d/1In28mVD_horjKMaDQrNpOpYlQ2rOk_49XHPvBdQrUTo/edit?usp=sharing), where the team discussed over voice chat and assigned weights to the needs based on their perceived impact on the overall user experience. Screenshots of each step of this process can be found in [Appendix B](./Appendix-B.md).
 
 &nbsp;
@@ -276,6 +277,7 @@ We outlined the following major design aspects for our product.
 >     2. The product must not pose a hazard to the environment.
 >     3. The product must not be designed in such a way that the user is encouraged to put 
 >     themselves in danger while using it.
+
 Our team will assess our product with respect to each of the requirements we have set forth for ourselves through a thorough evaluation process at each step of the design phase. This will involve reviewing the product aspects against the requirements to ensure that they are being met. Additionally, we will conduct testing and validation of the product to ensure that it meets the critical requirements. This can include functional testing, usability testing, and performance testing, among others. Furthermore, we will regularly review the requirements and compare them against the current design to ensure that we are on track to meet the goals. The product will be continuously evaluated and refined until it meets all of the requirements and provides a positive user experience. We will also consider feedback from beta testers and customers to make any necessary adjustments.  
 
 &nbsp;
