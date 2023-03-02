@@ -3,7 +3,7 @@
 &nbsp;
 
 ## Checkpoint 1 Presentation
-[![Checkpoint 1 Presentation](./images/design-ideation-images/Checkpoint1PresentationThumbnail.JPG "Checkpoint 1 Presentation Thumbnail")](https://www.youtube.com/watch?v=TLzWeIzh0lc&ab_channel=CaymanPreston "Checkpoint 1 Presentation")
+<iframe width="956" height="538" src="https://www.youtube.com/embed/TLzWeIzh0lc" title="Checkpoint 1 Presentation Team 304" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 &nbsp;
 
@@ -11,17 +11,15 @@
 
 ![Selected Design](./images/design-ideation-images/Selected_Design_Drawing.svg "Selected Design")
 
-<!--- Write a description here about what's going on in the design.-->
+After some deliberation amongst the team, this design was ultimately chosen. It's a small handheld weather station that's easy to place down to take measurements. It has a temperature and humidity sensor to obtain data from its surroundings. It also features an actuator in the form of a fan that serves to provide airflow through the device to cool the internal components and work as a personal fan for the user. There is an OLED display that would display information obtained from the data the sensors collect. The content displayed functions performed by the device would be configured via a potentiometer and a couple of buttons, allowing for simple display adjustments and menu navigation. An ESP32 module would also be implemented to permit the device to exchange data through wifi. All of these components would be powered by a 3.7 V battery which is fed through a 3.3 V regulator. Power could be turned on/off through a switch on the side of the device, and the power would be indicated through an LED that would be mounted on the side. 
 
+For the sake of clarity, here are a couple of screenshots of the 3D model that will serve as the enclosure for the circuitry.
 ![Design Enclosure 1](./images/design-ideation-images/Enclosure(Isometric1).jpg "Enclosure (Isometric) 1")
 
 ![Design Enclosure 2](./images/design-ideation-images/Enclosure(Isometric2).jpg "Enclosure (Isometric) 2")
 
-<!--- Add an included description for these images.-->
-
+Out of 70 unique user needs that were identified by the team, this was the list of relevant user needs that were identified by team that this design satisfies. All of them being sorted according to subsystem.
 ![Design User Needs](./images/design-ideation-images/Selected_Design_User_Needs_Table.JPG "Selected Design User Needs")
-
-<!--- Consider adding a little description here.-->
 
 &nbsp;
 
@@ -88,7 +86,7 @@ The reason we went with the 3.7V batteries is because this would remove the need
 The reason we went with option 1 was because of the price and the I2C protocol. We’ve been informed that the I2C protocol is easiest when coding an LCD screen. We also determined that our final product will be relatively small so the small size of the OLED will be perfect for our device.
 
 ## Power Budget
-<!--- Add a tiny bit of connective tissue here for flow.-->
+Gathering the information provided by each component's datasheet and additionally provided information, the power budget was able to be created to give the team insight on how much power the overall system consumed. 
 
 | Name Of Component                  | Voltage | Nominal Current Supply(mA) |
 |------------------------------------|---------|----------------------------|
@@ -105,24 +103,29 @@ The reason we went with option 1 was because of the price and the I2C protocol. 
 | Current Output Limit on Regulator: |         |                       1000 |
 |            Regulator Current Left: |         |                    304.993 |
 
-<!--- Add a small description to explain what's going on in it.-->
 
 &nbsp;
 
 ## Microcontroller Selection
 
- ![PIC18LF27K40 Microcontroller](./images/design-ideation-images/PIC18LF27K40.png "PIC18LF27K40")
+In order to narrow down the vast pool of 8 bit microcontrollers, we first identified our specific product's requirements. We referred to the block diagram created earlier to get a pin count of the list of capabilites we would need to look for in an MCU. This included I2C peripherals, for our temperature and humidity sensors, an SPI peripheral for the fan motor driver motor driver, and a UART peripheral for communication with an ESP32 board. Next, we used the Microchip Parametric Search Tool to search for 8 bit microcontrollers that met, at a minimum all of our project-specific requirements. We referenced datasheets to collect specs on each microcontroller for evaluation.
 
-<!--- Rearrange some of the wording on the existing report to flow with this section. (Look at section of text just above the image on the report)-->
+[![PIC18LF27K40 Microcontroller](./images/design-ideation-images/PIC18LF27K40.png "PIC18LF27K40")](https://www.microchip.com/en-us/product/PIC18F27K40#)
+
+[Click image for PIC product page]
+
+The final product, the PIC18LF27K40, hit the goldilocks zone for us. It had all of the required peripherals and just a few extra pins, in a reasonably sized package. However, one thing that really sold us on the PIC18LF27K40 was its ability to remap peripherals onto many pins. This would allow us lots of flexibility with our pin mapping and potential solutions to any mistakes made.
 
 &nbsp;
 
 ## Hardware Proposal
 
+With all of the components selected for the project, the next step was to put them all together in a complete and comprehensive schematic. The schematic was split into parts to clearly the depict the different subsystems involved.
+
 [![Team 304 Schematic](./images/design-ideation-images/Team304Schematic.JPG "Hardware Proposal JPG Image")](./images/design-ideation-images/Team304Schematic.pdf "Hardware Proposal")
 [Click the schematic image for PDF view]
 
-<!--- Include a description to go over the different components in a general sense.-->
+For the complete bill of materials categorized for each subsystem, click [here](./Bill_of_Materials.xlsx)
 
 ## Software Proposal
 
