@@ -350,11 +350,11 @@ Our third design concept revolved around solving a problem that plant owners som
 
 ## Block Diagram
 
-<!--- Add introductory information regarding the Block Diagram here -->
+Once we developed out final project design concept, we then developed a block diagram to identify the individual subsystems needed to fulfil the project requirements and develop our project. We separated our design into five main subsystems: Power Supply subsystem, Microcontroller and OLED subsystem, Temperature Sensor subsystem, Humidity Sensor subsystem, and Motor Controller subsystem.
 
-<!--- Include a photo of the finished Block Diagram here. Upload it to the .images folder then load it in here. -->
+![Block Diagram](./images/design-ideation-images/Team_304_Block_Diagram_(New)_SVG.svg "Team 304 Block Diagram")
 
-<!--- Add additional information to complement the Block Diagram's info here. Refer reader to an additional Appendix if we need it for this portion -->
+The Power Subsystem uses a switching voltage regulator to output 3.3V to supply power to the microcontroller, temperature sensor, and humidity sensor. The Microcontroller is an 8-bit microcontroller with MQTT, UART, PWM, SPI and I2C which fulfills project requirements. The Temperature sensor and Humidity sensor run on I2C protocol which fulfills one of the communication protocol requirements. The Motor Controller subsystem drives the motor using SPI communication protocol which fulfills project requirements. All components are surface-mount components and each pinout is labeled on the microcontroller block with their specific communication protocols.
 
 &nbsp;
 
