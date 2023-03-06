@@ -23,24 +23,24 @@
 [Design Ideation](https://egr314-team-304.github.io/team-report.html#design-ideation)
 
 - [Brainstorming Ideas](https://egr314-team-304.github.io/team-report.html#brainstorming-ideas)
-- [Grouped and Sorted Ideas]()
-- [Product Concept Sketch #1 - Dynamic Remote Weather Station]()
-- [Product Concept Sketch #2 - Handheld Weather Station]()
-- [Product Concept Sketch #3 - Automatic Plant Hydrator]()
+- [Grouped and Sorted Ideas](https://egr314-team-304.github.io/team-report.html#grouped-and-sorted-ideas)
+- [Product Concept Sketch #1 - Dynamic Remote Weather Station](https://egr314-team-304.github.io/team-report.html#product-concept-sketch-1---dynamic-remote-weather-station)
+- [Product Concept Sketch #2 - Handheld Weather Station](https://egr314-team-304.github.io/team-report.html#product-concept-sketch-2---handheld-weather-station)
+- [Product Concept Sketch #3 - Automatic Plant Hydrator](https://egr314-team-304.github.io/team-report.html#product-concept-sketch-3---automatic-plant-hydrator)
 
-[Block Diagram]()
+[Block Diagram](https://egr314-team-304.github.io/team-report.html#block-diagram)
 
-[Component Selection]()
+[Component Selection](https://egr314-team-304.github.io/team-report.html#component-selection)
 
-[Microcontroller Selection]()
+[Microcontroller Selection](https://egr314-team-304.github.io/team-report.html#microcontroller-selection)
 
-[Software Proposal]()
+[Software Proposal](https://egr314-team-304.github.io/team-report.html#software-proposal)
 
-- [Software Proposal UML Activity Diagram]()
-- [Functionality]()
-- [Rationale]()
+- [Software Proposal UML Activity Diagram](https://egr314-team-304.github.io/team-report.html#software-proposal-uml-activity-diagram)
+- [Functionality](https://egr314-team-304.github.io/team-report.html#functionality)
+- [Rationale](https://egr314-team-304.github.io/team-report.html#rationale)
 
-[Hardware Proposal]()
+[Hardware Proposal](https://egr314-team-304.github.io/team-report.html#hardware-proposal)
 
 &nbsp;
 
