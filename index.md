@@ -26,6 +26,6 @@ Team 304 Homepage:
 
 &nbsp;
 
-Jump to: [Appendix A](./Appendix-A.md) **·** [Appendix B](./Appendix-B.md)
+Jump to: [Appendix A](./Appendix-A.md) **·** [Appendix B](./Appendix-B.md) **·** [Appendix C](./Appendix-C.md) **·** [Appendix D](./Appendix-D.md)
 
 Created: January 23rd, 2023
