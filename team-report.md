@@ -484,4 +484,4 @@ Our team carefully considered the suite of features that our hardware could theo
  - Discuss your team's design and decision making process related to this section
  - Include the team's bill of materials in the appendix -->
 
-[^ Back to top](https://egr314-team-304.github.io/team-report.html##table-of-contents)
+[^ Back to top](https://egr314-team-304.github.io/team-report.html#table-of-contents)
