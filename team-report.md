@@ -1,3 +1,4 @@
+[< Back to home](./index.md)
 # Team Report
 
 &nbsp;
@@ -32,6 +33,16 @@
 
 [Component Selection](https://egr314-team-304.github.io/team-report.html#component-selection)
 
+- [5V Voltage Regulator](https://egr314-team-304.github.io/team-report.html#5v-voltage-regulator)
+- [3V Voltage Regulator](https://egr314-team-304.github.io/team-report.html#3v-voltage-regulator)
+- [Humidity Sensor](https://egr314-team-304.github.io/team-report.html#humidity-sensor)
+- [Temperature Sensor](https://egr314-team-304.github.io/team-report.html#temperature-sensor)
+- [Motor Driver](https://egr314-team-304.github.io/team-report.html#motor-driver)
+- [Fan](https://egr314-team-304.github.io/team-report.html#fan)
+- [Power Source](https://egr314-team-304.github.io/team-report.html#power-source)
+- [OLED Display](https://egr314-team-304.github.io/team-report.html#oled-display)
+- [Power Budget](https://egr314-team-304.github.io/team-report.html#power-budget)
+
 [Microcontroller Selection](https://egr314-team-304.github.io/team-report.html#microcontroller-selection)
 
 [Software Proposal](https://egr314-team-304.github.io/team-report.html#software-proposal)
@@ -41,12 +52,6 @@
 - [Rationale](https://egr314-team-304.github.io/team-report.html#rationale)
 
 [Hardware Proposal](https://egr314-team-304.github.io/team-report.html#hardware-proposal)
-
-&nbsp;
-
-## Table of Figures
-
-<!--- Populate this table with Figure and table names. Be sure to give every figure and table a name.-->
 
 &nbsp;
 
@@ -361,7 +366,7 @@ The Power Subsystem uses a switching voltage regulator to output 3.3V to supply 
 
 ## Component Selection
 
-With our block diagram laying the foundation for our design on a fundamental level, it was clear to find out exactly what would be required for this project to come to fruition. Having a general list of required components, we then went through a selection process to help us narrow down particular components available in the market. The ones listed here are the ones our team determined were the best option for our design. For the full list of components that our team explored, please refer to [Appendix C](./Appendix-C.md) (For the component's product page, click the associated image).
+With our block diagram laying the foundation for our design on a fundamental level, it was clear to find out exactly what would be required for this project to come to fruition. Having a general list of required components, we then went through a selection process to help us narrow down particular components available in the market. The ones listed here are the ones our team determined were the best option for our design. For the full list of components that our team selected from, please refer to [Appendix C](./Appendix-C.md) (For each component's product page, click the associated image).
 
 ### 5V Voltage Regulator
 
@@ -411,8 +416,12 @@ The reason we went with the 3.7V batteries is because this would remove the need
 
 The reason we went with option 1 was because of the price and the I2C protocol. We’ve been informed that the I2C protocol is easiest when coding an LCD screen. We also determined that our final product will be relatively small so the small size of the OLED will be perfect for our device.
 
-
 <!--- Make a new Appendix to fully go through the entire list of components that weren't chosen. -->
+
+### Power Budget
+<!--- Add a simplified table of the Power Budget here. -->
+
+<!--- Make a new Appendix D to link the entire Power Budget Document. -->
 
 &nbsp;
 
@@ -471,8 +480,8 @@ Our team carefully considered the suite of features that our hardware could theo
 
 <!--From Canvas:
  - Include an image of the team's schematics as a figure in the report.
- - Discuss how the functionality of this schematic satisfies user needs and product requirements though an in depth discussion of function.
+ - Discuss how the functionality of this schematic satisfies user needs and product requirements through an in-depth discussion of function.
  - Discuss your team's design and decision making process related to this section
  - Include the team's bill of materials in the appendix -->
 
-[< Back to home](./index.md)
+[^ Back to top](https://egr314-team-304.github.io/team-report.html#team-report)
