@@ -1,3 +1,5 @@
+[< Back to home](./index.md)
+
 # Appendix A - Team Organization
 
 ## Additional Content from the Team Organization Assignment 
@@ -100,4 +102,4 @@ Correspondence with the instructor will be prioritized in person with correspond
 
 &nbsp;
 
-[< Back to home](./index.md)
+[Back to top](#top)
