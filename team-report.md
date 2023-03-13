@@ -5,6 +5,8 @@
 
 ## Table of Contents
 
+[Introduction](https://egr314-team-304.github.io/team-report.html#introduction)
+
 [Team Organization](https://egr314-team-304.github.io/team-report.html#team-organization)
 
 - [Establishing the Team](https://egr314-team-304.github.io/team-report.html#establishing-the-team)
@@ -29,6 +31,8 @@
 - [Product Concept Sketch #2 - Handheld Weather Station](https://egr314-team-304.github.io/team-report.html#product-concept-sketch-2---handheld-weather-station)
 - [Product Concept Sketch #3 - Automatic Plant Hydrator](https://egr314-team-304.github.io/team-report.html#product-concept-sketch-3---automatic-plant-hydrator)
 
+[Selected Design](https://egr314-team-304.github.io/team-report.html#selected-design)
+
 [Block Diagram](https://egr314-team-304.github.io/team-report.html#block-diagram)
 
 [Component Selection](https://egr314-team-304.github.io/team-report.html#component-selection)
@@ -52,6 +56,12 @@
 - [Rationale](https://egr314-team-304.github.io/team-report.html#rationale)
 
 [Hardware Proposal](https://egr314-team-304.github.io/team-report.html#hardware-proposal)
+
+&nbsp;
+
+## Introduction
+
+Portable weather stations are used in a wide variety of applications. Some use them for personal applications such as in residential homes and farmlands to predict weather conditions. Others use them for more critical applications such as emergency responders conducting hazard analysis to run more accurate tests on the weather to guide them in decisions regarding public safety. These devices are in high demand and are always in need of being improved while minimizing the cost for both personal and emergency applications. This project aims to create a product that provides functionality that is not already in the market while being reliable and having a small form factor. The most common issues brought up by consumers when looking up devices in the market currently involve a lack of battery longevity, calibration features, sensor-reading consistency, limited range of applications, and wireless features. This project also focuses on creating a product that will address these issues which are found in similar devices currently available for purchase.
 
 &nbsp;
 
@@ -82,12 +92,6 @@ See [Appendix A](./Appendix-A.md) for further Team Organization content.
 
 
 ## User Needs, Benchmarking, and Requirements
-
-### Introduction
-
-Portable weather stations are used in a wide variety of applications. Some use them for personal applications such as in residential homes and farmlands to predict weather conditions. Others use them for more critical applications such as emergency responders conducting hazard analysis to run more accurate tests on the weather to guide them in decisions regarding public safety. These devices are in high demand and are always in need of being improved while minimizing the cost for both personal and emergency applications. Users describe difficulty with the longevity of the batteries, the accuracy of sensors, the range of applications, and the wireless connectivity of devices.   
-
-&nbsp;
 
 ### Objectives
 
@@ -353,9 +357,23 @@ Our third design concept revolved around solving a problem that plant owners som
 &nbsp;
 
 
+## Selected Design
+
+After some deliberation amongst the team, this design was ultimately chosen. It's a small handheld weather station that's easy to place down to take measurements. It has a temperature and humidity sensor to obtain data from its surroundings. It also features an actuator in the form of a fan that serves to provide airflow through the device to cool the internal components. There is an OLED display that would display information obtained from the data the sensors collect. The content displayed functions performed by the device would be configured via a potentiometer and a couple of buttons, allowing for simple display adjustments and menu navigation. An ESP32 module would also be implemented to permit the device to exchange data through wifi. All of these components would be powered by a 3.7 V battery which is fed through a 3.3 V and 5 V regulator, the latter of which would power the actuator subsystem. Power could be turned on/off through a switch on the side of the device, and the power would be indicated through an LED that would be mounted on the side.
+
+![Selected Design](./images/design-ideation-images/Selected_Design_Drawing_Updated.svg "Selected Design")
+
+This design is a redone version of the first design concept in the Design Ideation section. Apart from some required additions that were absent in the previous design sketch, this design got rid of the redundant sensors. This was initially supposed to help with calibration and accuracy by having the readings between the two sets of sensors compared and contrasted for a more precise reading. The coin cell batteries were replaced with the 3.7 V battery instead, as this kind of battery would last noticeably longer in this design. Lastly, a physical design element that was implemented over the original sketch is the inclusion of a wind tunnel. This would help in better directing the air drawn in from the fan actuator to help obtain readings and potentially cool the internal circuitry. All of these changes were made to better accomodate the electrical components selected for this design.
+
+For the sake of clarity, here are a couple of screenshots of the 3D model that will serve as the enclosure for the circuitry.
+![Design Enclosure 1](./images/design-ideation-images/Enclosure(Isometric1).jpg "Enclosure (Isometric) 1")
+
+![Design Enclosure 2](./images/design-ideation-images/Enclosure(Isometric2).jpg "Enclosure (Isometric) 2")
+
+
 ## Block Diagram
 
-Once we developed out final project design concept, we then developed a block diagram to identify the individual subsystems needed to fulfil the project requirements and develop our project. We separated our design into five main subsystems: Power Supply subsystem, Microcontroller and OLED subsystem, Temperature Sensor subsystem, Humidity Sensor subsystem, and Motor Controller subsystem.
+Once we developed our final project design concept, we then developed a block diagram to identify the individual subsystems needed to fulfil the project requirements and develop our project. We separated our design into five main subsystems: Power Supply subsystem, Microcontroller and OLED subsystem, Temperature Sensor subsystem, Humidity Sensor subsystem, and Motor Controller subsystem.
 
 ![Block Diagram](./images/design-ideation-images/Team_304_Block_Diagram_(New)_SVG.svg "Team 304 Block Diagram")
 
@@ -416,12 +434,14 @@ The reason we went with the 3.7V batteries is because this would remove the need
 
 The reason we went with option 1 was because of the price and the I2C protocol. We’ve been informed that the I2C protocol is easiest when coding an LCD screen. We also determined that our final product will be relatively small so the small size of the OLED will be perfect for our device.
 
-<!--- Make a new Appendix to fully go through the entire list of components that weren't chosen. -->
-
 ### Power Budget
-<!--- Add a simplified table of the Power Budget here. -->
 
-<!--- Make a new Appendix D to link the entire Power Budget Document. -->
+Gathering the information provided by each component's datasheet and additionally provided information, the power budget was able to be created to give the team insight on how much power the overall system consumed. Below are the calculations made to determine the available current and its use in the entire system of our design.
+
+![Power Budget 1](./images/design-ideation-images/Power_Budget_1.JPG "Power Budget Image 1")
+![Power Budget 2](./images/design-ideation-images/Power_Budget_2.JPG "Power Budget Image 2")
+
+There are eight major components involved that draw power from the power subsystem. Out of all of them, it seems the two digital sensors draw a minute amount of current; just a few microamps each. On the opposite side of the spectrum, the motor draws the most. The associated motor controller draws only one-fifth of that current. The ESP32 module would take up 300 mA with the PIC itself following at 200 mA. Lastly, the voltage regulators for the 3.3 V and 5 V rails would consume 75 mA. It was important to know how this would all affect our project's functionality, so the template was able to calculate the current available for us. We would enter the values found for each of these components involved in the power subsystem into the template, and the remaining current would be given. This also helped us determine how efficient different battery selections would be for this design along with how long they would last if left continuously running.
 
 &nbsp;
 
@@ -476,13 +496,20 @@ By providing these different modes of operation, the program allows for greater 
 
 Our team carefully considered the suite of features that our hardware could theoretically be used for and aimed to provide as many features as possible with a simple and understandable user interface. The main loop of the program was designed to continuously read data from the temperature and humidity sensors, process that data to adjust the fan's speed, output data over SPI to the motor, and transmit selected data over USART to the LED screen. This was done to ensure that the system was constantly monitoring and adjusting to changes in temperature and humidity, and that users could easily see the current readings on the LED screen. The menu subloop was implemented to provide users with a way to access and customize different settings on the product, so as to increase the product's flexibility and user-friendliness. The three different modes of the menu system were designed to provide users with different options based on their needs, such as viewing current or historical weather data. Calibration of the device was deemed a necessary option to ensure that users could trust the data provided by the system and make informed decisions based on that data. We also wanted the user interface to be simple, intuitive, and responsive. To make the product more user-friendly and accessible to a wider range of users, we wanted the menu system to be easy to navigate and understand.
 
+&nbsp;
+
 ## Hardware Proposal
 
-<!--From Canvas:
- - Include an image of the team's schematics as a figure in the report.
- - Discuss how the functionality of this schematic satisfies user needs and product requirements through an in-depth discussion of function.
- - Discuss your team's design and decision making process related to this section
- - Include the team's bill of materials in the appendix -->
+With all of the components selected for the project, the next step was to put them all together in a complete and comprehensive schematic. The schematic was split into parts to clearly depict the different subsystems involved.
+
+[![Team 304 Schematic](./images/design-ideation-images/Team304UpdatedSchematic.JPG "Hardware Proposal JPG Image")](./images/design-ideation-images/Team304UpdatedSchematic.pdf "Hardware Proposal")
+[Click the schematic image for PDF view]
+
+We begin by looking at the PIC18 component, the microprocessor that will run the entirety of the design. It is here where the sensors, actuator, buttons, display, potentiometer, and ESP32 module will operate from. The sensors depicted here utilize the I2C communication protocol while the motor controller uses the SPI communication protocol, satisfying the project's requirements thus far. There would also be an ESP32 module which would serve as the means for data exchange via bluetooth; another requirement satisfied. The combined components of the OLED display, pushbuttons and potentiometer wouldn't count towards the project's required subsystems, but would prove beneficial and important to the overall function of this project. The power subsystem would work under a switching voltage regulator setup between a 3.3 V and 5 V regulator setup to provide to the other subsystems, all hooked up to a couple of 3.7 V batteries for power.
+
+This design sought to address more specific user needs and requirements that were listed during the User Needs, Benchmarking and Requirements portion. Out of 70 unique user needs that were identified by the team, this was the list of relevant user needs that were identified by the team that this design satisfies. All of them being sorted according to subsystem.
+![Design User Needs](./images/design-ideation-images/Selected_Design_User_Needs_Table.JPG "Selected Design User Needs")
+
+For the bill of materials of this design, please refer to [Appendix D](./Appendix-D.md).
 
 [Back to top](#top)
-<!--- [Back to top](https://egr314-team-304.github.io/team-report.html#table-of-contents)-->
