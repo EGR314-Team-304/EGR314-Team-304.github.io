@@ -1,3 +1,5 @@
+[< Back to home](./index.md)
+
 # Microcontroller Selection
 
 In order to narrow down the vast pool of 8 bit microcontrollers, we first identified our specific product's requirements. We referred to the block diagram created earlier to get a pin count of the list of capabilites we would need to look for in an MCU. This included I2C peripherals, for our temperature and humidity sensors, an SPI peripheral for the fan motor driver motor driver, and a UART peripheral for communication with an ESP32 board. 
@@ -19,4 +21,4 @@ At first, we had little idea what to look for in a microcontroller, and even les
 
 &nbsp;
 
-[< Back to home](./index.md)
+[Back to top](#top)
