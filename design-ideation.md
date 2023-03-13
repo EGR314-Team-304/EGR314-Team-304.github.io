@@ -1,3 +1,5 @@
+[< Back to home](./index.md)
+
 # Design Ideation
 
 ### Brainstorming Ideas
@@ -42,4 +44,4 @@ Our third design concept revolved around solving a problem that plant owners som
 
 &nbsp;
 
-[< Back to home](./index.md)
+[Back to top](#top)
