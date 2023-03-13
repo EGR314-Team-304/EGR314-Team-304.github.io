@@ -3,6 +3,11 @@
 
 &nbsp;
 
+<h2 align="center">Checkpoint 1 Presentation</h2>
+<iframe width="956" height="538" src="https://www.youtube.com/embed/TLzWeIzh0lc" title="Checkpoint 1 Presentation Team 304" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+&nbsp;
+
 ## Table of Contents
 
 [Introduction](https://egr314-team-304.github.io/team-report.html#introduction)
