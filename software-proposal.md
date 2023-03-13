@@ -1,3 +1,5 @@
+[< Back to home](./index.md)
+
 # Software Proposal
 
 In order to model and lay out the overall framework and architecture of the code required to run our product, our team created an activity diagram. The goal of the diagram was not necessarily to write any functional code, but to establish the overall functionality of our software. We did so by creating a UML state chart mapping the intended flow of our program. 
@@ -32,4 +34,4 @@ Our team carefully considered the suite of features that our hardware could theo
 
 &nbsp;
 
-[< Back to home](./index.md)
+[Back to top](#top)
