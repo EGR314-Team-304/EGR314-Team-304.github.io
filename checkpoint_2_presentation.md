@@ -1,3 +1,5 @@
+[< Back to home](./index.md)
+
 <h1 align="center">Checkpoint 2 Presentation - Team 304 - Portable Weather Station & Portable Personal Fan</h1>
 
 &nbsp;
@@ -164,4 +166,4 @@ By providing these different modes of operation, the program allows for greater 
 
 Our team carefully considered the suite of features that our hardware could theoretically be used for and aimed to provide as many features as possible with a simple and understandable user interface. The main loop of the program was designed to continuously read data from the temperature and humidity sensors, process that data to adjust the fan's speed, output data over SPI to the motor, and transmit selected data over USART to the LED screen. This was done to ensure that the system was constantly monitoring and adjusting to changes in temperature and humidity, and that users could easily see the current readings on the LED screen. The menu subloop was implemented to provide users with a way to access and customize different settings on the product, so as to increase the product's flexibility and user-friendliness. The three different modes of the menu system were designed to provide users with different options based on their needs, such as viewing current or historical weather data. Calibration of the device was deemed a necessary option to ensure that users could trust the data provided by the system and make informed decisions based on that data. We also wanted the user interface to be simple, intuitive, and responsive. To make the product more user-friendly and accessible to a wider range of users, we wanted the menu system to be easy to navigate and understand.
 
-[< Back to home](./index.md)
+[Back to top](#top)
