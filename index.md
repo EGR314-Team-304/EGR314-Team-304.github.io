@@ -1,11 +1,11 @@
 ---
 Team 304 Homepage:
 ---
-| [Team Report](./team-report.md) | [Checkpoint 1 Presentation](./checkpoint_1_presentation.md) | [Checkpoint 2 Presentation](./checkpoint_2_presentation.md) |
+| [Team Report](./team-report.md) |
 
 &nbsp;
 
-| [Team Organization](./Team-Organization.md) | [User Needs](./user-needs.md) | [Design Ideation](./design-ideation.md) | [Block Diagram](./block-diagram.md) | [Component Selection](./component-selection.md) | [Microcontroller Selection](./microcontroller-selection.md) | [Software Proposal](./software-proposal.md) | [Hardware Proposal](./hardware-proposal.md) |
+| [Previous Canvas Submissions](./previous_submissions.md) |
 
 # Remote Weather Station
 
