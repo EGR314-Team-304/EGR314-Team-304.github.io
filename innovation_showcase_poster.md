@@ -4,5 +4,5 @@
 
 &nbsp;
 
-[![Poster Image](./images/design-ideation-images/Salido_EGR314.pdf "Team 304 Innovation Showcase Poster")](./images/design-ideation-images/Salido_EGR314.pdf "Team 304 Innovation Showcase Poster")
+[![Poster Image](./images/design-ideation-images/Salido_EGR314.JPG "Team 304 Innovation Showcase Poster")](./images/design-ideation-images/Salido_EGR314.pdf "Team 304 Innovation Showcase Poster")
 [Click the schematic image for PDF view]
