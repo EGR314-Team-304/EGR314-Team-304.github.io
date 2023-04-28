@@ -54,13 +54,17 @@
 
 [Microcontroller Selection](https://egr314-team-304.github.io/team-report.html#microcontroller-selection)
 
-[Software Proposal](https://egr314-team-304.github.io/team-report.html#software-proposal)
+[Software Implementation](https://egr314-team-304.github.io/team-report.html#software-implementation)
 
-- [Software Proposal UML Activity Diagram](https://egr314-team-304.github.io/team-report.html#software-proposal-uml-activity-diagram)
+- [Software Implementation UML Activity Diagram](https://egr314-team-304.github.io/team-report.html#software-implementation-uml-activity-diagram)
 - [Functionality](https://egr314-team-304.github.io/team-report.html#functionality)
 - [Rationale](https://egr314-team-304.github.io/team-report.html#rationale)
 
-[Hardware Proposal](https://egr314-team-304.github.io/team-report.html#hardware-proposal)
+[Hardware Implementation](https://egr314-team-304.github.io/team-report.html#hardware-implementation)
+
+- [Hardware Version 2.0](https://egr314-team-304.github.io/team-report.html#hardware-version-2.0)
+
+[Lessons Learned](https://egr314-team-304.github.io/team-report.html#lessons-learned)
 
 &nbsp;
 
@@ -91,7 +95,7 @@ After establishing these goals, we developed the following Team Charter and Miss
 > *“To leverage each of our team member’s areas of expertise to design and build a reliable, attractive, and functional weather station with a small form factor. The product will solve a real world environmental problem using sensors and actuators. Our product will be similar in quality to commercially available, professionally designed products.”*  
 &nbsp;
 
-See [Appendix A](./Appendix-A.md) for further Team Organization content.
+See [Appendix A - Team Organization](./Appendix-A.md) for further Team Organization content.
 
 &nbsp;
 
@@ -203,7 +207,7 @@ Our team employed a comprehensive methodology to identify and prioritize user ne
 > 1. Device offers a feature that more affordable alternatives do not offer.   
 > 1. The product must be affordable to own and maintain, not just to purchase.   
 
-In order to effectively organize and prioritize these needs, we assigned them to five categories: Mechanical, Electronic, Software, Back End, and Other. This categorization allowed for clear and efficient communication and reasoning within our team as we worked to rank the needs by priority. The importance of each need was determined through a collaborative process on [**this Google Jamboard**](https://jamboard.google.com/d/1In28mVD_horjKMaDQrNpOpYlQ2rOk_49XHPvBdQrUTo/edit?usp=sharing), where the team discussed over voice chat and assigned weights to the needs based on their perceived impact on the overall user experience. Screenshots of each step of this process can be found in [Appendix B](./Appendix-B.md).
+In order to effectively organize and prioritize these needs, we assigned them to five categories: Mechanical, Electronic, Software, Back End, and Other. This categorization allowed for clear and efficient communication and reasoning within our team as we worked to rank the needs by priority. The importance of each need was determined through a collaborative process on [**this Google Jamboard**](https://jamboard.google.com/d/1In28mVD_horjKMaDQrNpOpYlQ2rOk_49XHPvBdQrUTo/edit?usp=sharing), where the team discussed over voice chat and assigned weights to the needs based on their perceived impact on the overall user experience. Screenshots of each step of this process can be found in [Appendix B - User Needs, Benchmarking and Requirements](./Appendix-B.md).
 
 &nbsp;
 
@@ -298,14 +302,41 @@ Our team will assess our product with respect to each of the requirements we hav
 
 ### Open Questions
 - How many measuring functions will be available on this device and what will they be?
+
+It will be able to measure humidity and temperature together along with the ability to see their min/max values. Additionally, it would allow the user to manually set the fan speed.
+
 - Will the device have an auto-shut off or will it have the ability to measure data indefinitely?
+
+The device will continue to obtain readings in the background, whether it is displaying those readings or not. It will have those readings sent over Wi-Fi to an MQTT server in real time.
+
 - What will the dimensions of the device be with the desired sensors in place?
+
+It’s about 5” by 5” width and length.
+
 - What kind of batteries will be used for the operation of this device?
+
+Two 3.7V Lithium Ion batteries in series to provide 7.4V.
+
 - Is the device able to plot or record data in real time?
+
+The device will obtain humidity and temperature readings in real time. Those readings would then be displayed on the OLED on the device and recorded on an MQTT server via Wi-Fi.
+
 - Will a 3D-printed shell be enough to protect the circuitry from moisture?
+
+The device would not be waterproof, but the shell would be sufficient in keeping the internals fairly dry. Anything short of submerging it in water or pouring a liquid over it would likely be okay for the circuitry inside.
+
 - Will the device have options to switch units for different measurements?
+
+You would have to alter it in code but we will not have that option currently. It will be an option that can be available in the future.
+
 - Will the device have a way to attach or connect to a stand, prop or tripod?
+
+No.
+
 - Will the device feature any sort of rechargeable batteries or power source?
+
+Lithium Ion batteries are rechargeable.
+
 
 &nbsp;
 
@@ -371,16 +402,16 @@ After some deliberation amongst the team, this design was ultimately chosen. It'
 This design is a redone version of the first design concept in the Design Ideation section. Apart from some required additions that were absent in the previous design sketch, this design got rid of the redundant sensors. This was initially supposed to help with calibration and accuracy by having the readings between the two sets of sensors compared and contrasted for a more precise reading. The coin cell batteries were replaced with the 3.7 V battery instead, as this kind of battery would last noticeably longer in this design. Lastly, a physical design element that was implemented over the original sketch is the inclusion of a wind tunnel. This would help in better directing the air drawn in from the fan actuator to help obtain readings and potentially cool the internal circuitry. All of these changes were made to better accomodate the electrical components selected for this design.
 
 For the sake of clarity, here are a couple of screenshots of the 3D model that will serve as the enclosure for the circuitry.
-![Design Enclosure 1](./images/design-ideation-images/Enclosure(Isometric1).jpg "Enclosure (Isometric) 1")
+![Design Enclosure 1](./images/design-ideation-images/Enclosure(Isometric1).png "Enclosure (Isometric) 1")
 
-![Design Enclosure 2](./images/design-ideation-images/Enclosure(Isometric2).jpg "Enclosure (Isometric) 2")
+![Design Enclosure 2](./images/design-ideation-images/Enclosure(Isometric2).png "Enclosure (Isometric) 2")
 
 
 ## Block Diagram
 
 Once we developed our final project design concept, we then developed a block diagram to identify the individual subsystems needed to fulfill the project requirements and develop our project. We separated our design into five main subsystems: Power Supply subsystem, Microcontroller and OLED subsystem, Temperature Sensor subsystem, Humidity Sensor subsystem, and Motor Controller subsystem.
 
-![Block Diagram](./images/design-ideation-images/Team_304_Block_Diagram_(New)_SVG.svg "Team 304 Block Diagram")
+![Block Diagram](./images/design-ideation-images/Team_304_Block_Diagram.svg "Team 304 Block Diagram")
 
 The Power Subsystem uses a switching voltage regulator to output 3.3V to supply power to the microcontroller, temperature sensor, and humidity sensor. The Microcontroller is an 8-bit microcontroller with MQTT, UART, PWM, SPI and I2C which fulfills project requirements. The Temperature sensor and Humidity sensor run on I2C protocol which fulfills one of the communication protocol requirements. The Motor Controller subsystem drives the motor using SPI communication protocol which fulfills project requirements. All components are surface-mount components and each pinout is labeled on the microcontroller block with their specific communication protocols.
 
@@ -389,7 +420,7 @@ The Power Subsystem uses a switching voltage regulator to output 3.3V to supply 
 
 ## Component Selection
 
-With our block diagram laying the foundation for our design on a fundamental level, it was clear to find out exactly what would be required for this project to come to fruition. Having a general list of required components, we then went through a selection process to help us narrow down particular components available in the market. The ones listed here are the ones our team determined were the best option for our design. For the full list of components that our team selected from, please refer to [Appendix C](./Appendix-C.md) (For each component's product page, click the associated image).
+With our block diagram laying the foundation for our design on a fundamental level, it was clear to find out exactly what would be required for this project to come to fruition. Having a general list of required components, we then went through a selection process to help us narrow down particular components available in the market. The ones listed here are the ones our team determined were the best option for our design. For the full list of components that our team selected from, please refer to [Appendix C - Component Selection](./Appendix-C.md) (For each component's product page, click the associated image).
 
 ### 5V Voltage Regulator
 
@@ -405,9 +436,9 @@ This IC is the cheapest option, and is a very reputable manufacturer. We also ar
 
 ### Humidity Sensor
 
-[![image](https://user-images.githubusercontent.com/122584348/222215996-7b30da86-b69e-4d1c-a3c9-103d8f6a54ed.png)](https://www.digikey.com/en/products/detail/sensirion-ag/SHT40-AD1B-R2/13532084)
+[![image](./images/design-ideation-images/Humidity_Sensor_Component.JPG)](https://www.digikey.com/en/products/detail/texas-instruments/HDC2021DEBR/12762163?utm_adgroup=Sensors%20%26%20Transducers&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_RLSA_Buyers&utm_term=&utm_content=Sensors%20%26%20Transducers&gclid=CjwKCAjwuqiiBhBtEiwATgvixL-BhjMrOFQl-A3NAmdco_Qin_fzEB-smklFNfIrEtE21yquz_f6IBoC-o0QAvD_BwE)
 
-Product was found on a reputable source and manufacturer. The price is the most competitive out of the other options and has the best sensor accuracy. The sensor runs on I2C protocol which will fulfill one of the communication protocol requirements as well.
+We needed a quick backup as our first option (the SHT40) did not function and was difficult to solder. This chip was much bigger and had better register and data information on the datasheet. We had working code for another I2C sensor from Texas Instruments so we assumed that would make it easier to code this chip.
 
 ### Temperature Sensor
 
@@ -470,7 +501,7 @@ At first, we had little idea what to look for in a microcontroller, and even les
 
 &nbsp;
 
-## Software Proposal
+## Software Implementation
 
 &nbsp;
 
@@ -478,8 +509,10 @@ In order to model and lay out the overall framework and architecture of the code
 
 &nbsp;
 
-### Software Proposal UML Activity Diagram
-![Team 304 Software Proposal UML Diagram](./images/design-ideation-images/304SoftwareProposal_02_24.jpg "Software Proposal UML Activity Diagram")
+### Software Implementation UML Activity Diagram
+[![Team 304 Software Implementation UML Diagram](./images/design-ideation-images/Software_Diagram_Final.jpg "Software Implementation UML Activity Diagram")](./images/design-ideation-images/Software_Diagram_Final.pdf "Software Implementation UML Activity Diagram")
+
+[Click the diagram image for PDF view]
 
 ### Functionality
 
@@ -501,20 +534,64 @@ By providing these different modes of operation, the program allows for greater 
 
 Our team carefully considered the suite of features that our hardware could theoretically be used for and aimed to provide as many features as possible with a simple and understandable user interface. The main loop of the program was designed to continuously read data from the temperature and humidity sensors, process that data to adjust the fan's speed, output data over SPI to the motor, and transmit selected data over USART to the LED screen. This was done to ensure that the system was constantly monitoring and adjusting to changes in temperature and humidity, and that users could easily see the current readings on the LED screen. The menu subloop was implemented to provide users with a way to access and customize different settings on the product, so as to increase the product's flexibility and user-friendliness. The three different modes of the menu system were designed to provide users with different options based on their needs, such as viewing current or historical weather data. Calibration of the device was deemed a necessary option to ensure that users could trust the data provided by the system and make informed decisions based on that data. We also wanted the user interface to be simple, intuitive, and responsive. To make the product more user-friendly and accessible to a wider range of users, we wanted the menu system to be easy to navigate and understand.
 
+<!--- Further elaborate on how this software implementation fulfills user needs and req's -->
+
+<!--- Add numbered list of top 5 changes made to software implementation -->
+
 &nbsp;
 
-## Hardware Proposal
+## Hardware Implementation
 
 With all of the components selected for the project, the next step was to put them all together in a complete and comprehensive schematic. The schematic was split into parts to clearly depict the different subsystems involved.
 
-[![Team 304 Schematic](./images/design-ideation-images/Team304UpdatedSchematic.JPG "Hardware Proposal JPG Image")](./images/design-ideation-images/Team304UpdatedSchematic.pdf "Hardware Proposal")
+[![Team 304 Schematic](./images/design-ideation-images/TEAM304FINALSCHEMATIC.jpg "Hardware Implementation JPG Image")](./images/design-ideation-images/TEAM304FINALSCHEMATIC.pdf "Hardware Implementation")
 [Click the schematic image for PDF view]
 
 We begin by looking at the PIC18 component, the microprocessor that will run the entirety of the design. It is here where the sensors, actuator, buttons, display, potentiometer, and ESP32 module will operate from. The sensors depicted here utilize the I2C communication protocol while the motor controller uses the SPI communication protocol, satisfying the project's requirements thus far. There would also be an ESP32 module which would serve as the means for data exchange via bluetooth; another requirement satisfied. The combined components of the OLED display, pushbuttons and potentiometer wouldn't count towards the project's required subsystems, but would prove beneficial and important to the overall function of this project. The power subsystem would work under a switching voltage regulator setup between a 3.3 V and 5 V regulator setup to provide to the other subsystems, all hooked up to a couple of 3.7 V batteries for power.
 
+After the schematic was finalized, we created our team PCB design of the schematic.
+
+![Team 304 PCB Top Design](./images/design-ideation-images/Top_PCB_Design.png "Team 304 PCB Top Design")
+![Team 304 PCB Bottom Design](./images/design-ideation-images/Bottom_PCB_Design.png "Team 304 PCB Bottom Design")
+
+This is what team's PCB looked like after being manufactured and assembled.
+
+![Team 304 Physical PCB Top Design](./images/design-ideation-images/Top_PCB_Design_Physical.png "Team 304 Physical PCB Top Design")
+![Team 304 Physical PCB Bottom Design](./images/design-ideation-images/Bottom_PCB_Design_Physical.png "Team 304 Physical PCB Bottom Design")
+
+Our schematic and final design fulfills almost all of the user needs and requirements. The board runs on two rechargeable 3.7 Lithium Ion batteries in series which combined provide 7.4V of power. We then step the voltage down to 5V to run the motor and down to 3.3V to run the PIC, temperature sensor, humidity sensor, OLED, and ESP32 module. The two batteries combined provide an excellent power source with good battery longevity.
+Our design provides a user-friendly interface with a menu system. In the menu, the user will have access to multiple functions such as the current humidity and temperature readings, the max and minimum humidity and temperature readings, and an option to set the motor fan speed. The fan does an excellent job of cooling down the internal electrical components when it gets too hot which allows the device to function in a wide range of climate conditions. There is also a grill in front of the fan to provide protection from anything that could damage the motor.
+The sensors are extremely compact and are the two smallest IC’s on the entire board. They provide a compact and sleek design for the PCB and provide more room for the larger components on the board. This helped to decrease the overall size of the board and reduce the size of our device overall to provide a sleek hand held design and look. The sensors read and output data to the PIC effectively and have options to offset the data readings in case of any error. We assume that error will slowly accumulate as the device ages so it is important that the sensors have these features to adjust them as necessary so they continue to provide accurate readings even with age.
+
+The PIC microcontroller does an excellent job of meeting the project needs. It is very power efficient and overall, the device has minimal power requirements. The PIC provides multiple menu functions and informs the user of the humidity and temperature readings.
+In summary, the device is sleek, hand held, light weight, transportable, durable and has a solid enclosure. It meets our project requirements, user requirements and meets our personal expectations for the project. 
+
+
 This design sought to address more specific user needs and requirements that were listed during the User Needs, Benchmarking and Requirements portion. Out of 70 unique user needs that were identified by the team, this was the list of relevant user needs that were identified by the team that this design satisfies, all of them being sorted according to subsystem.
 ![Design User Needs](./images/design-ideation-images/Selected_Design_User_Needs_Table.JPG "Selected Design User Needs")
 
-For the bill of materials of this design, please refer to [Appendix D](./Appendix-D.md).
+For the bill of materials of this design, please refer to [Appendix D - Bill of Materials](./Appendix-D.md).
+
+### Hardware Version 2.0
+
+Two areas that will need improvement are the traces for the motor driver and the temperature sensor. There was an error on the board where the DIR pin was tied to 5V and pulled high. This limited our ability to change the direction of the motor. In our application, the motor only needed to spin one way so this wasn’t a major drawback for our final design. Another error we discovered is that there was an error on the board where the temperature sensor traces were not connected correctly to the PIC or to power. This shorted the sensor so in the future we will need to revise the footprint and trace pathing for the temperature sensor. Another area we could improve is providing more space for terminal blocks to tie in power and the motor leads. The terminal blocks we are currently using hang over the PCB and squish the top of some of the surface mount parts. We ended up removing them and soldering jumpers to the board but in the future, we would design the board to provide more space to solder on terminal boxes. Last but not least, we had already designed the OLED to connect directly to our microcontroller before we performed the OLED ESP32 ICC. In the future, we will design the OLED to connect to the ESP32 directly. We ended up having to solder jumpers to the header pins for the ESP32 module which functions for now but we will update the board in the future.
+
+## Lessons Learned
+
+- The time it takes to include a generous amount of test points for debugging overtakes the time to add them during the PCB/schematic designing.
+
+- Being acquainted with reading dimensions on datasheets for surface mount parts is essential to ensure proper footprint designs and correctly manufactured PCBs.
+
+- To prevent the failure of commits and loss of the overwritten version, pull requests were emphasized while working on the same repository.
+
+- Always verify the information you receive. We were putting our board through the oven and the temperature was set wrong and the solder paste wasn’t reflowing correctly.
+
+- Design circuits around the datasheet. Usually if it has it on there it is important. We figured that the diodes on the switching power regulator were safety precautions for backflow current but it ended up being an important factor of the regulator functionality.
+
+- Do not take a single person’s word as Gospel for a design change; it is more beneficial to obtain multiple perspectives on the same topic to make a better informed decision.
+
+- Take note when a provided example schematic on a datasheet says it is not guaranteed to function correctly. Test it to determine what changes it may require before moving forward with it.
+
+- Do not commit to a circuit subsystem on a PCB without knowing that it works. Rerouting traces on a manufactured board is significantly more difficult than redesigning it with a working schematic beforehand.
 
 [Back to top](#top)
