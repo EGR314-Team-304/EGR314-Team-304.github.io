@@ -62,7 +62,7 @@
 
 [Hardware Implementation](https://egr314-team-304.github.io/team-report.html#hardware-implementation)
 
-- [Hardware Version 2.0](https://egr314-team-304.github.io/team-report.html#hardware-version-2.0)
+- [Hardware Version 2.0](https://egr314-team-304.github.io/team-report.html#hardware-version-20)
 
 [Lessons Learned](https://egr314-team-304.github.io/team-report.html#lessons-learned)
 
