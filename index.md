@@ -26,6 +26,6 @@ Team 304 Homepage:
 
 &nbsp;
 
-Jump to: [Appendix A](./Appendix-A.md) **·** [Appendix B](./Appendix-B.md) **·** [Appendix C](./Appendix-C.md) **·** [Appendix D](./Appendix-D.md)
+Jump to: [Appendix A - Team Organization](./Appendix-A.md) **·** [Appendix B - User Needs, Benchmarking and Requirements](./Appendix-B.md) **·** [Appendix C - Component Selection](./Appendix-C.md) **·** [Appendix D - Bill of Materials](./Appendix-D.md)
 
 Created: January 23rd, 2023
