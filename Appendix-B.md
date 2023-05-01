@@ -199,6 +199,80 @@
 
 &nbsp;
 
+### User Needs
+Reviewing all 5 products mentioned in the market above, we were able to formulate a list of common user needs based off the positive and negative feedback of the products' consumers. Here is the compiled list of user needs our team was able to obtain:
+
+> 1. Device should withstand weather conditions.   
+> 1. The device must display the information it collects.   
+> 1. Device should function reliably for up to 2-3 years.   
+> 1. Device electronics should be protected from moisture as much as possible.   
+> 1. The device needs good quality material for its build.   
+> 1. The product must run for a long time without maintenance.   
+> 1. Have a mounting feature.   
+> 1. The product must be reliable.   
+> 1. Should be able to run on batteries.   
+> 1. Should be ergonomically friendly.   
+> 1. Should be compact.   
+> 1. Display should be easy to read.   
+> 1. The product must indicate its current state to the user.   
+> 1. Battery life should be long lasting.   
+> 1. The product's design must not attempt to prevent the user from using it for their desired purpose.   
+> 1. Device should employ a method to clip or attach it to something for carrying purposes to reduce likelihood of losing it.   
+> 1. Device is low weight, making it easy to carry.   
+> 1. The physical build of the device needs to utilize the inner space as efficiently as possible and minimizes empty space inside.   
+> 1. The product must provide accurate information.   
+> 1. Have a wide temperature range for all climates.   
+> 1. Should be hand held.   
+> 1. Device must have reliable battery system.   
+> 1. Device must measure humidity.   
+> 1. Device sensors must be accurate.   
+> 1. The device must sense the environment.   
+> 1. The product must be reliable.   
+> 1. Device must have reliable results/readings.  
+> 1. Device has multiple functionalities.   
+> 1. Device could benefit from having the ability to calibrate it.   
+> 1. The product must be low-power.   
+> 1. Needs to have replaceable sensors.   
+> 1. Sensors should be cheap to replace.   
+> 1. Device should have safeguards in place to prevent picking up noise from readings while in use.   
+> 1. Device must support a very high duty cycle.   
+> 1. Readings are consistent.   
+> 1. Device must have reliable hardware.   
+> 1. The product must include basic features of an electronic device that all users will expect.   
+> 1. Readings from device are made easier to see with backlit display; use at night, dark places and bright areas are possible.   
+> 1. Device should have a way to attach it to another surface or prop to minimize noisy readings.   
+> 1. The product must have a short set-up time.   
+> 1. Device must give customer informed insights.   
+> 1. Needs a manual adjuster to calibrate sensors.   
+> 1. Needs a debugging function to test functionality of sensors.   
+> 1. Device must give users un-observable data.   
+> 1. Device must be beneficial to customers knowledge of their environment.   
+> 1. The product must behave in an intuitive, easy-to-understand way.   
+> 1. Device must have notification abilities.  
+> 1. Device offers a means to digitally graph readings through provided software.   
+> 1. The product must have a clear user interface.   
+> 1. Device must inform users of results.   
+> 1. User input for settings ought to be saved upon power down for ease of use.   
+> 1. The product must not incorporate features which the user has to ‘work around’ to do what they want.   
+> 1. Device display needs to be focused on its purpose with minimal other distractions.   
+> 1. Device must update frequently.   
+> 1. Auto-shutoff features should be configurable within the device.   
+> 1. Indoor unit and outdoor unit need to have a strong connective signal for consistent readings.   
+> 1. Display should have adjustable brightness.   
+> 1. Display should have a manual sleep mode to turn the mode on and off when desired.   
+> 1. Needs a function to set day and time.   
+> 1. Device could benefit from having a zero-ing feature to minimize noisy readings from using it in close proximity.   
+> 1. The product must respond to user inputs in real time.   
+> 1. The device must be easy to use.   
+> 1. Device needs to respond easily.  
+> 1. The product must not require frequent reboots.   
+> 1. Device must have independent “server”.   
+> 1. Device should be affordable, in terms of construction and delivery.   
+> 1. The product’s documentation must be clear enough to understand the first time.   
+> 1. Fast customer service.   
+> 1. Device offers a feature that more affordable alternatives do not offer.   
+> 1. The product must be affordable to own and maintain, not just to purchase.   
+
 ### Aspects (Product Requirements)
 With reviewing the user needs from the benchmarking selections, we came up with an extensive list of product requirements that the project could implement. Not all of them were used in the final product, but the full list of the ones made helped make this process easier. Here is that full list:
 
