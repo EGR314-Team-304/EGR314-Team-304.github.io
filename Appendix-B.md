@@ -7,6 +7,7 @@
 
 
 **Product 1: [Multifunctional Pro Digital Anemometer](https://www.amazon.com/Handheld-Anemometer-Measures-Humidity-Temperature/dp/B09H359ZYZ/ref=sr_1_14?keywords=handheld+weather+station&qid=1673918266&sr=8-14)**
+![Product 1](./images/design-ideation-images/Product1.png "Product 1")
 
 | Price  	| Vendor 	    | Search Keywords         |
 |---------	|--------------	|-------------------------|
@@ -43,6 +44,7 @@
 |  | Auto-shutoff features should be configurable within the device. (latent) |
 
 **Product 2: [Kestrel 3000 Pocket Weather Meter / Heat Stress Monitor](https://www.amazon.com/Kestrel-Pocket-Weather-Stress-Monitor/dp/B017AEZXBO/ref=sr_1_12?keywords=handheld+weather+station&qid=1673918266&sr=8-12&ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0)**
+![Product 2](./images/design-ideation-images/Product2.png "Product 2")
 
 | Price  	| Vendor 	    | Search Keywords         |
 |---------	|--------------	|-------------------------|
@@ -81,6 +83,7 @@
 |  | Choice of materials for device should make sense to maximize availability for consumer. (latent) |
 
 **Product 3: [Weather Station with Atomic Clock](https://www.amazon.com/Thermometer-Wireless-Temperature-Humidity-Barometer/dp/B0B981H9Y8/ref=sr_1_37?keywords=handheld+weather+station&qid=1673918266&sr=8-37)**
+![Product 3](./images/design-ideation-images/Product3.png "Product 3")
 
 | Price  	| Vendor 	    | Search Keywords         |
 |---------	|--------------	|-------------------------|
@@ -118,6 +121,7 @@
 |  | The product must respond to user inputs in real time. (Latent) |
 
 **Product 4: [La Crosse Wireless Digital Personal Weather Station](https://www.amazon.com/Crosse-Technology-S82967-INT-Wireless-Personal/dp/B0833DB72S/ref=sr_1_52?keywords=handheld%2Bweather%2Bstation&qid=1673918266&sr=8-52&th=1)**
+![Product 4](./images/design-ideation-images/Product4.png "Product 4")
 
 | Price  	| Vendor 	    | Search Keywords         |
 |---------	|--------------	|-------------------------|
@@ -155,6 +159,8 @@
 
 **Product 5: [Netatmo Weather Station Indoor Outdoor with Wireless Outdoor Sensor](https://www.amazon.com/Netatmo-NWS01-Weather-Station/dp/B0095HVAKS/ref=sxbs_pa_sp_search_thematic_btf_sspa?content-id=amzn1.sym.2019952a-aab3-4af4-b5e1-8bc14f649af1%3Aamzn1.sym.2019952a-aab3-4af4-b5e1-8bc14f649af1&cv_ct_cx=handheld%2Bweather%2Bstation&keywords=handheld%2Bweather%2Bstation&pd_rd_i=B0095HVAKS&pd_rd_r=d74440cc-4f84-4de3-8117-eebd85c7b609&pd_rd_w=uMOl9&pd_rd_wg=Lt5bt&pf_rd_p=2019952a-aab3-4af4-b5e1-8bc14f649af1&pf_rd_r=NCGAPB722KG77Q9629RE&qid=1673918266&sr=1-5-c631bdc2-85b6-416b-a5f6-d88eb317d0d2-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFVNkpITzRaQUNDRFEmZW5jcnlwdGVkSWQ9QTAwMTI2MDkxOVZFWVYyQjQxQkE5JmVuY3J5cHRlZEFkSWQ9QTAxMzQ2NDQ4VUswWUxVQko3UFYmd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1)**
 
+![Product 5](./images/design-ideation-images/Product5.png "Product 5")
+
 | Price  	| Vendor 	    | Search Keywords         |
 |---------	|--------------	|-------------------------|
 | $179.99  	| Amazon        | Handheld Weather Station|
@@ -190,6 +196,91 @@
 | “The one major problem is that if the manufacturers website goes down your weather station will be offline and will not work. I was wondering why my weather station was getting a network error, only to discover the manufacturers website was offline. What weather station operates off of the manufacturer’s website and is not independent in its own operation like all others…” | Device must have independent “server” (Latent) |
 |  | Device must have reliable hardware (Latent) |
 |  | Device should withstand all conditions (Latent) |
+
+&nbsp;
+
+### Aspects (Product Requirements)
+With reviewing the user needs from the benchmarking selections, we came up with an extensive list of product requirements that the project could implement. Not all of them were used in the final product, but the full list of the ones made helped make this process easier. Here is that full list:
+
+> 1. **Hardware / Product Design**
+>     1.  The product must be able to withstand various weather conditions. 
+>     2.  The product must display the information it collects. 
+>     3.  The product must function reliably for up to 2-3 years. 
+>     4.  The product must have measures in place to protect its electronics from moisture. 
+>     5.  The product must be made with high-quality materials for its construction. 
+>     6.  The product must be able to run for a long time without requiring maintenance. 
+>     7.  The product must have a mounting feature.
+>     8.  The product must be reliable. 
+>     9.  The product must be able to run on batteries.
+>     10. The product must be ergonomically designed for comfort and ease of use. 
+>     11. The product must be compact in size. 
+>     12. The product's display must be easy to read. 
+>     13. The product must clearly indicate its current state to the user. 
+>     14. The product must have long-lasting battery life. 
+>     15. The product's design must not restrict or limit the user's desired use of the device. 
+>     16. The product must have a method for attaching or clipping it to something for easy carrying and to reduce the likelihood of losing it. 
+>     17. The product must be lightweight and easy to carry. 
+>     18. The product must efficiently utilize the internal space and minimize empty space inside.
+>     19. The product must provide accurate information. 
+>     20. The product must be able to operate in a wide range of temperatures and climates. 
+>     21. The product must be designed to be held in the hand.
+> 2. **Software / Functionality**
+>     1. The product must measure humidity.
+>     2. The product must have accurate sensors.
+>     3. The product must sense the environment.
+>     4. The product must be reliable.
+>     5. The product must have reliable results/readings.
+>     6. The product must have multiple functionalities.
+>     7. The product must have the ability to calibrate it.
+>     8. The product must have low-power consumption.
+>     9. The product must have replaceable sensors.
+>     10. The product must have sensors that are cheap to replace.
+>     11. The product must have safeguards in place to prevent picking up noise from readings while in use.
+>     12. The product must support a very high duty cycle.
+>     13. The product must have consistent readings.
+>     14. The product must have reliable hardware.
+>     15. The product must include basic features of an electronic device that all users will expect.
+>     16. The product must have a backlit display to make readings easier to see in low light conditions.
+>     17. The product’s sensors must have a way to attach it to another surface or prop to minimize noisy readings.
+> 3. **Interactivity & User Experience**
+>     1. The product must have a short set-up time.
+>     2. The product must give customers informed insights.
+>     3. The product must have a manual adjuster to calibrate sensors.
+>     4. The product must have a debugging function to test the functionality of sensors.
+>     5. The product must give users unobservable data.
+>     6. The product must be beneficial to customers' knowledge of their environment.
+>     7. The product must behave in an intuitive, easy-to-understand way.
+>     8. The product must have notification abilities.
+>     9. The product must offer a means to digitally graph readings through provided software.
+>     10. The product must have a clear user interface.
+>     11. The product must inform users of results.
+>     12. The product must save user input for settings upon power down for ease of use.
+>     13. The product must not incorporate features which the user has to 'work around' to do what they want.
+>     14. The product must have a display that is focused on its purpose with minimal other distractions.
+>     15. The product must update frequently.
+>     16. The product must have configurable auto-shutoff features.
+>     17. The product must have a strong connective signal between the indoor unit and outdoor unit for consistent readings.
+>     18. The product must have an adjustable display brightness.
+>     19. The product must have a manual sleep mode for the display that can be turned on and off when desired.
+>     20. The product must have a zero-ing feature to minimize noisy readings from using it in close proximity.
+> 4. **Customization** 
+>     1. The product must respond to user inputs in real time.
+>     2. The product must be easy to use.
+>     3. The product must respond easily.
+>     4. The product must not require frequent reboots.
+>     5. The product must have an independent "server"
+>     6. The product must have a function to set the day and time.
+> 5. **Manufacturing** 
+>     1. The product must be affordable in terms of construction and delivery.
+>     2. The product's documentation must be clear enough to understand the first time.
+>     3. The product must have fast customer service.
+>     4. The product must offer a feature that more affordable alternatives do not offer.
+>     5. The product must be affordable to own and maintain, not just to purchase.
+> 6. **Safety**
+>     1. The product must not cause injury to a user.
+>     2. The product must not pose a hazard to the environment.
+>     3. The product must not be designed in such a way that the user is encouraged to put 
+>     themselves in danger while using it.
 
 &nbsp;
 
