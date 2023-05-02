@@ -24,7 +24,7 @@
 - [Stakeholders](https://egr314-team-304.github.io/team-report.html#stakeholders)
 - [Use Cases](https://egr314-team-304.github.io/team-report.html#use-cases)
 - [User Needs](https://egr314-team-304.github.io/team-report.html#user-needs)
-- [Aspects](https://egr314-team-304.github.io/team-report.html#aspects)
+- [Aspects and Product Requirements](https://egr314-team-304.github.io/team-report.html#aspects-and-product-requirements)
 - [Open Questions](https://egr314-team-304.github.io/team-report.html#open-questions)
 - [Milestones](https://egr314-team-304.github.io/team-report.html#milestones)
 
@@ -59,12 +59,90 @@
 - [Software Implementation UML Activity Diagram](https://egr314-team-304.github.io/team-report.html#software-implementation-uml-activity-diagram)
 - [Functionality](https://egr314-team-304.github.io/team-report.html#functionality)
 - [Rationale](https://egr314-team-304.github.io/team-report.html#rationale)
+- [Top 5 Software Changes](https://egr314-team-304.github.io/team-report.html#top-5-software-changes)
+- [Software Version 2.0](https://egr314-team-304.github.io/team-report.html#software-version-20)
 
 [Hardware Implementation](https://egr314-team-304.github.io/team-report.html#hardware-implementation)
 
 - [Hardware Version 2.0](https://egr314-team-304.github.io/team-report.html#hardware-version-20)
 
+[System Verification](https://egr314-team-304.github.io/team-report.html#system-verification)
+
 [Lessons Learned](https://egr314-team-304.github.io/team-report.html#lessons-learned)
+
+[Recommendations for Future Students](https://egr314-team-304.github.io/team-report.html#recommendations-for-future-students)
+
+&nbsp;
+
+## Table of Figures
+
+[Table 1 - Satisfied User Needs](https://egr314-team-304.github.io/team-report.html#table-1---satisfied-user-needs)
+
+[Figure 1 - Design Ideas 1-25](https://egr314-team-304.github.io/team-report.html#figure-1---design-ideas-1-25)
+
+[Figure 2 - Design Ideas 26-50](https://egr314-team-304.github.io/team-report.html#figure-2---design-ideas-26-50)
+
+[Figure 3 - Design Ideas 51-75](https://egr314-team-304.github.io/team-report.html#figure-3---design-ideas-51-75)
+
+[Figure 4 - Design Ideas 76-100](https://egr314-team-304.github.io/team-report.html#figure-4---design-ideas-76-100)
+
+[Figure 5 - Design Concept 1 Ideas](https://egr314-team-304.github.io/team-report.html#figure-5---design-concept-1-ideas)
+
+[Figure 6 - Design Concept 2 Ideas](https://egr314-team-304.github.io/team-report.html#figure-6---design-concept-2-ideas)
+
+[Figure 7 - Design Concept 3 Ideas](https://egr314-team-304.github.io/team-report.html#figure-7---design-concept-3-ideas)
+
+[Figure 8 - Miscellaneous Ideas](https://egr314-team-304.github.io/team-report.html#figure-8---miscellaneous-ideas)
+
+[Figure 9 - Design Concept 1 Sketch](https://egr314-team-304.github.io/team-report.html#figure-9---design-concept-1-sketch)
+
+[Figure 10 - Design Concept 2 Sketch](https://egr314-team-304.github.io/team-report.html#figure-10---design-concept-2-sketch)
+
+[Figure 11 - Design Concept 3 Sketch](https://egr314-team-304.github.io/team-report.html#figure-11---design-concept-3-sketch)
+
+[Figure 12 - Selected Design Sketch](https://egr314-team-304.github.io/team-report.html#figure-12---selected-design-sketch)
+
+[Figure 13 - 3D Model Isometric 1](https://egr314-team-304.github.io/team-report.html#figure-13---3d-model-isometric-1)
+
+[Figure 14 - 3D Model Isometric 2](https://egr314-team-304.github.io/team-report.html#figure-14---3d-model-isometric-2)
+
+[Figure 15 - Block Diagram](https://egr314-team-304.github.io/team-report.html#figure-15---block-diagram)
+
+[Table 2 - 5V Voltage Regulator](https://egr314-team-304.github.io/team-report.html#table-2---5v-voltage-regulator)
+
+[Table 3 - 3V Voltage Regulator](https://egr314-team-304.github.io/team-report.html#table-3---3v-voltage-regulator)
+
+[Table 4 - Humidity Sensor](https://egr314-team-304.github.io/team-report.html#table-4---humidity-sensor)
+
+[Table 5 - Temperature Sensor](https://egr314-team-304.github.io/team-report.html#table-5---temperature-sensor)
+
+[Table 6 - Motor Driver](https://egr314-team-304.github.io/team-report.html#table-6---motor-driver)
+
+[Table 7 - Fan](https://egr314-team-304.github.io/team-report.html#table-7---fan)
+
+[Table 8 - Power Source](https://egr314-team-304.github.io/team-report.html#table-8---power-source)
+
+[Table 9 - OLED Display](https://egr314-team-304.github.io/team-report.html#table-9---oled-display)
+
+[Figure 16 - Power Budget](https://egr314-team-304.github.io/team-report.html#figure-16---power-budget)
+
+[Table 10 - Microcontroller Selection](https://egr314-team-304.github.io/team-report.html#table-10---microcontroller-selection)
+
+[Figure 17 - PIC18F27K40](https://egr314-team-304.github.io/team-report.html#figure-17---pic18f27k40)
+
+[Figure 18 - Software Diagram](https://egr314-team-304.github.io/team-report.html#figure-18---software-diagram)
+
+[Figure 19 - Project Schematic](https://egr314-team-304.github.io/team-report.html#figure-19---project-schematic)
+
+[Figure 20 - Top PCB Design](https://egr314-team-304.github.io/team-report.html#figure-20---top-pcb-design)
+
+[Figure 21 - Bottom PCB Design](https://egr314-team-304.github.io/team-report.html#figure-21---bottom-pcb-design)
+
+[Figure 22 - Top Physical PCB](https://egr314-team-304.github.io/team-report.html#figure-22---top-physical-pcb)
+
+[Figure 23 - Bottom Physical PCB](https://egr314-team-304.github.io/team-report.html#figure-23---bottom-physical-pcb)
+
+[Figure 24 - Verification Table](https://egr314-team-304.github.io/team-report.html#figure-24---verification-table)
 
 &nbsp;
 
@@ -134,169 +212,56 @@ We envision our product being used by everyday people with an interest in the we
 
 ### User Needs
 
-Our team employed a comprehensive methodology to identify and prioritize user needs for our product. We first examined reviews of competing products and observed the pros and cons of existing products to gain a deeper understanding of what customers liked and didn't like. This information was then translated into a list of needs for our product. Our team identified the following needs:
+Our team employed a comprehensive methodology to identify and prioritize user needs for our product. We first examined reviews of competing products and observed the pros and cons of existing products to gain a deeper understanding of what customers liked and didn't like. This information was then translated into a list of 70 unique needs for our product. Our team identified the following needs from our complete list that are satisfied by our final project:
 
-> 1. Device should withstand weather conditions.   
-> 1. The device must display the information it collects.   
-> 1. Device should function reliably for up to 2-3 years.   
-> 1. Device electronics should be protected from moisture as much as possible.   
-> 1. The device needs good quality material for its build.   
-> 1. The product must run for a long time without maintenance.   
-> 1. Have a mounting feature.   
-> 1. The product must be reliable.   
-> 1. Should be able to run on batteries.   
-> 1. Should be ergonomically friendly.   
-> 1. Should be compact.   
-> 1. Display should be easy to read.   
-> 1. The product must indicate its current state to the user.   
-> 1. Battery life should be long lasting.   
-> 1. The product's design must not attempt to prevent the user from using it for their desired purpose.   
-> 1. Device should employ a method to clip or attach it to something for carrying purposes to reduce likelihood of losing it.   
-> 1. Device is low weight, making it easy to carry.   
-> 1. The physical build of the device needs to utilize the inner space as efficiently as possible and minimizes empty space inside.   
-> 1. The product must provide accurate information.   
-> 1. Have a wide temperature range for all climates.   
-> 1. Should be hand held.   
-> 1. Device must have reliable battery system.   
-> 1. Device must measure humidity.   
-> 1. Device sensors must be accurate.   
-> 1. The device must sense the environment.   
-> 1. The product must be reliable.   
-> 1. Device must have reliable results/readings.  
-> 1. Device has multiple functionalities.   
-> 1. Device could benefit from having the ability to calibrate it.   
-> 1. The product must be low-power.   
-> 1. Needs to have replaceable sensors.   
-> 1. Sensors should be cheap to replace.   
-> 1. Device should have safeguards in place to prevent picking up noise from readings while in use.   
-> 1. Device must support a very high duty cycle.   
-> 1. Readings are consistent.   
-> 1. Device must have reliable hardware.   
-> 1. The product must include basic features of an electronic device that all users will expect.   
-> 1. Readings from device are made easier to see with backlit display; use at night, dark places and bright areas are possible.   
-> 1. Device should have a way to attach it to another surface or prop to minimize noisy readings.   
-> 1. The product must have a short set-up time.   
-> 1. Device must give customer informed insights.   
-> 1. Needs a manual adjuster to calibrate sensors.   
-> 1. Needs a debugging function to test functionality of sensors.   
-> 1. Device must give users un-observable data.   
-> 1. Device must be beneficial to customers knowledge of their environment.   
-> 1. The product must behave in an intuitive, easy-to-understand way.   
-> 1. Device must have notification abilities.  
-> 1. Device offers a means to digitally graph readings through provided software.   
-> 1. The product must have a clear user interface.   
-> 1. Device must inform users of results.   
-> 1. User input for settings ought to be saved upon power down for ease of use.   
-> 1. The product must not incorporate features which the user has to ‘work around’ to do what they want.   
-> 1. Device display needs to be focused on its purpose with minimal other distractions.   
-> 1. Device must update frequently.   
-> 1. Auto-shutoff features should be configurable within the device.   
-> 1. Indoor unit and outdoor unit need to have a strong connective signal for consistent readings.   
-> 1. Display should have adjustable brightness.   
-> 1. Display should have a manual sleep mode to turn the mode on and off when desired.   
-> 1. Needs a function to set day and time.   
-> 1. Device could benefit from having a zero-ing feature to minimize noisy readings from using it in close proximity.   
-> 1. The product must respond to user inputs in real time.   
-> 1. The device must be easy to use.   
-> 1. Device needs to respond easily.  
-> 1. The product must not require frequent reboots.   
-> 1. Device must have independent “server”.   
-> 1. Device should be affordable, in terms of construction and delivery.   
-> 1. The product’s documentation must be clear enough to understand the first time.   
-> 1. Fast customer service.   
-> 1. Device offers a feature that more affordable alternatives do not offer.   
-> 1. The product must be affordable to own and maintain, not just to purchase.   
+#### Table 1 - Satisfied User Needs
+![Design User Needs](./images/design-ideation-images/Selected_Design_User_Needs_Table.JPG "Selected Design User Needs") 
 
-In order to effectively organize and prioritize these needs, we assigned them to five categories: Mechanical, Electronic, Software, Back End, and Other. This categorization allowed for clear and efficient communication and reasoning within our team as we worked to rank the needs by priority. The importance of each need was determined through a collaborative process on [**this Google Jamboard**](https://jamboard.google.com/d/1In28mVD_horjKMaDQrNpOpYlQ2rOk_49XHPvBdQrUTo/edit?usp=sharing), where the team discussed over voice chat and assigned weights to the needs based on their perceived impact on the overall user experience. Screenshots of each step of this process can be found in [Appendix B - User Needs, Benchmarking and Requirements](./Appendix-B.md).
+In order to effectively organize and prioritize these needs, we assigned them to five categories: Mechanical, Electronic, Software, Back End, and Other. This categorization allowed for clear and efficient communication and reasoning within our team as we worked to rank the needs by priority. The importance of each need was determined through a collaborative process on [**this Google Jamboard**](https://jamboard.google.com/d/1In28mVD_horjKMaDQrNpOpYlQ2rOk_49XHPvBdQrUTo/edit?usp=sharing), where the team discussed over voice chat and assigned weights to the needs based on their perceived impact on the overall user experience. Screenshots of each step of this process as well as the complete list of user needs can be found in [Appendix B - User Needs, Benchmarking and Requirements](./Appendix-B.md).
 
 &nbsp;
 
-### Aspects 
-We then extracted meaning from the user needs by carefully analyzing the information gathered from reviews of similar products and observing the pros and cons of existing products. This allowed us to identify the key features and functionality that customers valued in similar products. We then translated these user needs into a list of product requirements that would ensure that our product met each of the most important user needs. To ensure that our product met these requirements, we prioritized the most important user needs and assigned them a specific requirement for our product. This process involved breaking down the user needs into smaller, more specific components and outlining the necessary steps to meet each one. Additionally, we continuously reviewed and refined the list of requirements throughout the development process to ensure that they remained aligned with the evolving needs of our target market.  
-
-We outlined the following major design aspects for our product.
+### Aspects and Product Requirements
+We then extracted meaning from the user needs by carefully analyzing the information gathered from reviews of similar products and observing the pros and cons of existing products. This allowed us to identify the key features and functionality that customers valued in similar products. We then translated these user needs into a list of product requirements that would ensure that our product met each of the most important user needs. To ensure that our product met these requirements, we prioritized the most important user needs and assigned them a specific requirement for our product. This process involved breaking down the user needs into smaller, more specific components and outlining the necessary steps to meet each one. Additionally, we continuously reviewed and refined the list of requirements throughout the development process to ensure that they remained aligned with the evolving needs of our target market. This list is the final set of product requirements that the final project aimed for.
 
 > 1. **Hardware / Product Design**
->     1.  The product must be able to withstand various weather conditions. 
->     2.  The product must display the information it collects. 
->     3.  The product must function reliably for up to 2-3 years. 
->     4.  The product must have measures in place to protect its electronics from moisture. 
->     5.  The product must be made with high-quality materials for its construction. 
->     6.  The product must be able to run for a long time without requiring maintenance. 
->     7.  The product must have a mounting feature.
->     8.  The product must be reliable. 
->     9.  The product must be able to run on batteries.
->     10. The product must be ergonomically designed for comfort and ease of use. 
->     11. The product must be compact in size. 
->     12. The product's display must be easy to read. 
->     13. The product must clearly indicate its current state to the user. 
->     14. The product must have long-lasting battery life. 
->     15. The product's design must not restrict or limit the user's desired use of the device. 
->     16. The product must have a method for attaching or clipping it to something for easy carrying and to reduce the likelihood of losing it. 
->     17. The product must be lightweight and easy to carry. 
->     18. The product must efficiently utilize the internal space and minimize empty space inside.
->     19. The product must provide accurate information. 
->     20. The product must be able to operate in a wide range of temperatures and climates. 
->     21. The product must be designed to be held in the hand.
+>     1. The product must display the information it collects.
+>     2. The product must be made with high-quality materials for its construction.
+>     3. The product must be able to run on batteries.
+>     4. The product must be compact in size.
+>     5. The product’s display must be easy to read.
+>     6. The product must be lightweight and easy to carry.
+>     7. The product must efficiently utilize the internal space and minimize empty space inside.
+>     8. The product must be designed to be held in the hand.
 > 2. **Software / Functionality**
 >     1. The product must measure humidity.
->     2. The product must have accurate sensors.
->     3. The product must sense the environment.
->     4. The product must be reliable.
->     5. The product must have reliable results/readings.
->     6. The product must have multiple functionalities.
->     7. The product must have the ability to calibrate it.
->     8. The product must have low-power consumption.
->     9. The product must have replaceable sensors.
->     10. The product must have sensors that are cheap to replace.
->     11. The product must have safeguards in place to prevent picking up noise from readings while in use.
->     12. The product must support a very high duty cycle.
->     13. The product must have consistent readings.
->     14. The product must have reliable hardware.
->     15. The product must include basic features of an electronic device that all users will expect.
->     16. The product must have a backlit display to make readings easier to see in low light conditions.
->     17. The product’s sensors must have a way to attach it to another surface or prop to minimize noisy readings.
+>     2. The product must sense the environment.
+>     3. The product must have multiple functionalities.
+>     4. The product must have low-power consumption.
+>     5. The product must support a very high duty cycle.
+>     6. The product must have consistent readings.
+>     7. The product must include basic features of an electronic device that all users will expect.
+>     8. The product must have a backlit display to make readings easier to see in low light conditions.
 > 3. **Interactivity & User Experience**
 >     1. The product must have a short set-up time.
->     2. The product must give customers informed insights.
->     3. The product must have a manual adjuster to calibrate sensors.
->     4. The product must have a debugging function to test the functionality of sensors.
->     5. The product must give users unobservable data.
->     6. The product must be beneficial to customers' knowledge of their environment.
->     7. The product must behave in an intuitive, easy-to-understand way.
->     8. The product must have notification abilities.
->     9. The product must offer a means to digitally graph readings through provided software.
->     10. The product must have a clear user interface.
->     11. The product must inform users of results.
->     12. The product must save user input for settings upon power down for ease of use.
->     13. The product must not incorporate features which the user has to 'work around' to do what they want.
->     14. The product must have a display that is focused on its purpose with minimal other distractions.
->     15. The product must update frequently.
->     16. The product must have configurable auto-shutoff features.
->     17. The product must have a strong connective signal between the indoor unit and outdoor unit for consistent readings.
->     18. The product must have an adjustable display brightness.
->     19. The product must have a manual sleep mode for the display that can be turned on and off when desired.
->     20. The product must have a zero-ing feature to minimize noisy readings from using it in close proximity.
+>     2. The product must have a debugging function to test the functionality of sensors.
+>     3. The product must be beneficial to customers’ knowledge of their environment.
+>     4. The product must behave in an intuitive, easy-to-understand way.
+>     5. The product must offer a means to digitally graph readings through provided software.
+>     6. The product must have a clear user interface.
+>     7. The product must inform users of results.
+>     8. The product must have a display that is focused on its purpose with minimal other distractions.
 > 4. **Customization** 
 >     1. The product must respond to user inputs in real time.
 >     2. The product must be easy to use.
->     3. The product must respond easily.
->     4. The product must not require frequent reboots.
->     5. The product must have an independent "server"
->     6. The product must have a function to set the day and time.
-> 5. **Manufacturing** 
->     1. The product must be affordable in terms of construction and delivery.
->     2. The product's documentation must be clear enough to understand the first time.
->     3. The product must have fast customer service.
->     4. The product must offer a feature that more affordable alternatives do not offer.
->     5. The product must be affordable to own and maintain, not just to purchase.
-> 6. **Safety**
+>     3. The product must have an independent "server".
+> 5. **Safety**
 >     1. The product must not cause injury to a user.
 >     2. The product must not pose a hazard to the environment.
 >     3. The product must not be designed in such a way that the user is encouraged to put 
 >     themselves in danger while using it.
 
-Our team will assess our product with respect to each of the requirements we have set forth for ourselves through a thorough evaluation process at each step of the design phase. This will involve reviewing the product aspects against the requirements to ensure that they are being met. Additionally, we will conduct testing and validation of the product to ensure that it meets the critical requirements. This can include functional testing, usability testing, and performance testing, among others. Furthermore, we will regularly review the requirements and compare them against the current design to ensure that we are on track to meet the goals. The product will be continuously evaluated and refined until it meets all of the requirements and provides a positive user experience. We will also consider feedback from beta testers and customers to make any necessary adjustments.  
+Our team assessed our product with respect to each of the requirements we have set forth for ourselves through a thorough evaluation process at each step of the design phase. This involved reviewing the product aspects against the requirements to ensure that they are being met. Additionally, we conducted testing and validation of the product to ensure that it meets the critical requirements. This included functional testing, usability testing, and performance testing, among others. Furthermore, we regularly reviewed the requirements and compared them against the current design to ensure that we were on track to meet the goals. The product was continuously evaluated and refined until it met all of the requirements and provided a positive user experience. For the full list that this list is derived from, please see [Appendix B](./Appendix-B.md)
 
 &nbsp;
 
@@ -357,28 +322,44 @@ Lithium Ion batteries are rechargeable.
 For our brainstorming, we decided to come up with 100 ideas by dedicating 4 frames on Jamboard, one for each team member. Each team member would think up 25 ideas, place them on sticky notes on their dedicated frame, and use a different color to serve as a visual aid for the next step. Here are the 4 frames we ended up with:
 
 ![Jamboard image](./images/design-ideation-images/image9.png "Design Ideation Image 9")
+#### Figure 1 - Design Ideas 1-25
+
 ![Jamboard image](./images/design-ideation-images/image6.png "Design Ideation Image 6")
+#### Figure 2 - Design Ideas 26-50
+
 ![Jamboard image](./images/design-ideation-images/image10.png "Design Ideation Image 10")
+#### Figure 3 - Design Ideas 51-75
+
 ![Jamboard image](./images/design-ideation-images/image7.png "Design Ideation Image 7")
+#### Figure 4 - Design Ideas 76-100
 
 ### Grouped and Sorted Ideas
 
 Once all of our ideas were created, we then sorted them according to the 3 design sketches our team made. We rearranged our Jamboard to have 3 frames, one for each design sketch and placed our ideas into the frames of which sketch they described. For the sake of completeness and posterity, we added a fourth frame to hold any unused ideas that didn't fit in any of the 3 frames mentioned. Here are what those frames looked like:
 
 ![Jamboard image](./images/design-ideation-images/image3.png "Design Ideation Image 3")
+#### Figure 5 - Design Concept 1 Ideas
+
 ![Jamboard image](./images/design-ideation-images/image1.png "Design Ideation Image 1")
+#### Figure 6 - Design Concept 2 Ideas
+
 ![Jamboard image](./images/design-ideation-images/image8.png "Design Ideation Image 8")
+#### Figure 7 - Design Concept 3 Ideas
+
 ![Jamboard image](./images/design-ideation-images/image5.png "Design Ideation Image 5")
+#### Figure 8 - Miscellaneous Ideas
 
 ### Product Concept Sketch #1 - Dynamic Remote Weather Station
 
 ![Jamboard image](./images/design-ideation-images/image11.png "Design Ideation Image 11")
+#### Figure 9 - Design Concept 1 Sketch
 
 Our first design concept comes in a small handheld device that can be designed to work in-hand or when placed in a particular spot. The shape of the design makes it simpler to place on a desired surface. The sensors, temperature and humidity, would be available to use for data collection. A fan in the device would be activated when the temperature sensor read above a certain threshold to aid in cooling the device's internals. An interesting feature of this concept involves doubling the sensors and placing the redundant pair on the opposite side of the device. This redundancy would allow the device to account for small deviations in its readings to display and transmit more accurate data. The device would have a USB port that would serve as both a charge port and data port. A display would be used to show readings with a potentiometer and a couple of buttons to operate the device. 
 
 ### Product Concept Sketch #2 - Handheld Weather Station
 
 ![Jamboard image](./images/design-ideation-images/image2.jpg "Design Ideation Image 2")
+#### Figure 10 - Design Concept 2 Sketch
 
 For the second concept, a hilt-like handheld device was considered. With folding arms having a temperature sensor on one arm and a humidity sensor on the other. It would be a compact and traveler-friendly design. A loop at the bottom of the device would allow for it to be clipped onto something for carrying purposes. The arms of the device would dictate which of the two sensors would be in use at that time. If both arms were to be extended during use, the device would obtain readings from both sensors on their respective arm. The fan in the center of the device would always be available to use, serving both as a sensor for wind speed and as a method to recharge the batteries of the device while in use. Units and sensors could be toggled and data would be capable of being transmitted to another device via wi-fi while also being shown on the device's backlit display.
 
@@ -386,6 +367,7 @@ For the second concept, a hilt-like handheld device was considered. With folding
 
 ![Jamboard image](./images/design-ideation-images/image12.jpg "Design Ideation Image 12")
 ![Jamboard image](./images/design-ideation-images/image4.jpg "Design Ideation Image 4")
+#### Figure 11 - Design Concept 3 Sketch
 
 Our third design concept revolved around solving a problem that plant owners sometimes encounter: Keeping a plant hydrated while away. This design would seek to measure the humidity level of the soil and the ambient temperature. When the humidity drops or the temperature becomes too high, an actuator would be triggered to dispense water and hydrate the plant. The plant owner would be able to remotely monitor the humidity and temperature and view how much water had been dispensed. The design would be powered by a wall adapter for simplicity and reliability.
 
@@ -398,20 +380,25 @@ Our third design concept revolved around solving a problem that plant owners som
 After some deliberation amongst the team, this design was ultimately chosen. It's a small handheld weather station that's easy to place down to take measurements. It has a temperature and humidity sensor to obtain data from its surroundings. It also features an actuator in the form of a fan that serves to provide airflow through the device to cool the internal components. There is an OLED display that would display information obtained from the data the sensors collect. The content displayed functions performed by the device would be configured via a potentiometer and a couple of buttons, allowing for simple display adjustments and menu navigation. An ESP32 module would also be implemented to permit the device to exchange data through wifi. All of these components would be powered by a 3.7 V battery which is fed through a 3.3 V and 5 V regulator, the latter of which would power the actuator subsystem. Power could be turned on/off through a switch on the side of the device, and the power would be indicated through an LED that would be mounted on the side.
 
 ![Selected Design](./images/design-ideation-images/Selected_Design_Drawing_Updated.svg "Selected Design")
+#### Figure 12 - Selected Design Sketch
 
 This design is a redone version of the first design concept in the Design Ideation section. Apart from some required additions that were absent in the previous design sketch, this design got rid of the redundant sensors. This was initially supposed to help with calibration and accuracy by having the readings between the two sets of sensors compared and contrasted for a more precise reading. The coin cell batteries were replaced with the 3.7 V battery instead, as this kind of battery would last noticeably longer in this design. Lastly, a physical design element that was implemented over the original sketch is the inclusion of a wind tunnel. This would help in better directing the air drawn in from the fan actuator to help obtain readings and potentially cool the internal circuitry. All of these changes were made to better accomodate the electrical components selected for this design.
 
 For the sake of clarity, here are a couple of screenshots of the 3D model that will serve as the enclosure for the circuitry.
 ![Design Enclosure 1](./images/design-ideation-images/Enclosure(Isometric1).png "Enclosure (Isometric) 1")
+#### Figure 13 - 3D Model Isometric 1
 
 ![Design Enclosure 2](./images/design-ideation-images/Enclosure(Isometric2).png "Enclosure (Isometric) 2")
+#### Figure 14 - 3D Model Isometric 2
 
+The final product was designed around the models presented here. The potentiometer and charge/power LED were omitted from the final design, opting for just the couple of buttons for menu navigation. The wind tunnel was made straight to help with ease of internal design once the team had the final board designed and printed out. The board itself would result in taking up the entire bottom of the shell inside. The batteries would be mounted on the top portion of the shell to allow the internals to mesh well together when the shell is closed. Another addition would involve adding five male wire ends at the top to allow the microcontroller to be programmed with a PICkit. The wire ends protrude through the top half of the shell for easier access. Apart from small changes in orientation for some of the other components, this final product would essentially be the same as the design sketch above.
 
 ## Block Diagram
 
 Once we developed our final project design concept, we then developed a block diagram to identify the individual subsystems needed to fulfill the project requirements and develop our project. We separated our design into five main subsystems: Power Supply subsystem, Microcontroller and OLED subsystem, Temperature Sensor subsystem, Humidity Sensor subsystem, and Motor Controller subsystem.
 
 ![Block Diagram](./images/design-ideation-images/Team_304_Block_Diagram.svg "Team 304 Block Diagram")
+#### Figure 15 - Block Diagram
 
 The Power Subsystem uses a switching voltage regulator to output 3.3V to supply power to the microcontroller, temperature sensor, and humidity sensor. The Microcontroller is an 8-bit microcontroller with MQTT, UART, PWM, SPI and I2C which fulfills project requirements. The Temperature sensor and Humidity sensor run on I2C protocol which fulfills one of the communication protocol requirements. The Motor Controller subsystem drives the motor using SPI communication protocol which fulfills project requirements. All components are surface-mount components and each pinout is labeled on the microcontroller block with their specific communication protocols.
 
@@ -424,48 +411,56 @@ With our block diagram laying the foundation for our design on a fundamental lev
 
 ### 5V Voltage Regulator
 
+#### Table 2 - 5V Voltage Regulator
 [![image](https://user-images.githubusercontent.com/122584348/222214879-eef7bc81-d864-4548-812d-55aa9cb1cfb7.png)](https://www.digikey.com/en/products/detail/umw/LM2576S-5-0/16705873)
 
 This IC is not much more expensive than the cheapest option, and is a big step up in the reputability of the manufacturer. We were initially going to go with option 1 because we are familiar with this chip as we used it in one of our ICC’s (the 3.3V version) but it was out of stock. We went with this alternative option because of its large stock.
 
 ### 3V Voltage Regulator
 
+#### Table 3 - 3V Voltage Regulator
 [![image](https://user-images.githubusercontent.com/122584348/222215442-e1992483-ec26-4a95-8989-41be0ceb9bd6.png)](https://www.digikey.com/en/products/detail/microchip-technology/LM2575-3.3WU-TR/16679441?utm_adgroup=Integrated%20Circuits&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Supplier_Microchip_0150_Co-op&utm_term=&utm_content=Integrated%20Circuits&gclid=Cj0KCQiAz9ieBhCIARIsACB0oGKfTJQ9Fh5r8kRAPXw3mW0jDgG6PvythhTawmOSTd8LAARY7K1dAVcaAvMLEALw_wcB)
 
 This IC is the cheapest option, and is a very reputable manufacturer. We also are familiar with this chip as we used it in one of our ICC’s (the 3.3V version). Worst case scenario we have to substitute it with the slightly more expensive and larger TI version.
 
 ### Humidity Sensor
 
+#### Table 4 - Humidity Sensor
 [![image](./images/design-ideation-images/Humidity_Sensor_Component.JPG)](https://www.digikey.com/en/products/detail/texas-instruments/HDC2021DEBR/12762163?utm_adgroup=Sensors%20%26%20Transducers&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_RLSA_Buyers&utm_term=&utm_content=Sensors%20%26%20Transducers&gclid=CjwKCAjwuqiiBhBtEiwATgvixL-BhjMrOFQl-A3NAmdco_Qin_fzEB-smklFNfIrEtE21yquz_f6IBoC-o0QAvD_BwE)
 
 We needed a quick backup as our first option (the SHT40) did not function and was difficult to solder. This chip was much bigger and had better register and data information on the datasheet. We had working code for another I2C sensor from Texas Instruments so we assumed that would make it easier to code this chip.
 
 ### Temperature Sensor
 
+### Table 5 - Temperature Sensor
 [![image](https://user-images.githubusercontent.com/122584348/222216164-d7e42745-26c6-4a6c-911b-20abcc371094.png)](https://www.digikey.com/en/products/detail/texas-instruments/TMP1075DR/9685283)
 
 Product was found on a reputable source and manufacturer. It is accurate and has a wide temperature-sensing range. It is the cheapest option and the benefits match the other more expensive sensors. The sensor runs on I2C protocol which will fulfill one of the communication protocol requirements as well. 
 
 ### Motor Driver
 
+#### Table 6 - Motor Driver
 [![image](https://user-images.githubusercontent.com/122584348/222216362-ba5fe039-a115-42be-9db5-4c8bc66f6ae2.png)](https://www.digikey.com/en/products/detail/infineon-technologies/IFX9201SGAUMA1/5415542)
 
 It is the only part that was able to be found that would actually suffice for this project, as finding surface mount motor driver parts that are readily available and have serial communication capabilities are not easy to find online. This part was initially given out to the class, which will help in getting acquainted with the part’s behavior and obtaining help with getting the part to work. This part also comes with a datasheet for further information. This part will require an additional power rail but will serve our project’s purpose, nonetheless.
 
 ### Fan
 
+#### Table 7 - Fan
 [![image](https://user-images.githubusercontent.com/122584348/222216521-b2b4859b-c870-4332-a3e9-49038f1e7e48.png)](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3368/6680553)
 
 The pricing for this device is the best out of all the options here, allowing for a couple more being available to order for spares. The listing for this product is also more reputable than some of the other options. This fan comes included with a datasheet and mounting screws, although the datasheet is not as detailed as Option 1’s. This product runs with 5V, and while it is larger than the other options with no RPM listed, it serves as a more efficient cooling fan that would best serve our project’s needs.
 
 ### Power Source
 
+#### Table 8 - Power Source
 [![image](https://user-images.githubusercontent.com/122584348/222216729-c5ab52b4-0c13-49b6-a715-3be7b8f345a2.png)](https://www.digikey.com/en/products/detail/us-electronics-inc./USE-18650-2200MAH/15781480?utm_adgroup=US%20ELECTRONICS%20INC.&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_DK%2BSupplier_Tier%202%20-%20Block%201&utm_term=&utm_content=US%20ELECTRONICS%20INC.&gclid=Cj0KCQiAorKfBhC0ARIsAHDzslv-uqp_LuVAYAKcPoXCEjDeCUxs115HwhbcdR_NMl6o_bhkvuoHSJAaAirnEALw_wcB)
 
 The reason we went with the 3.7V batteries is because this would remove the need for a 5V switching regulator for our project. The 3.7V would be sufficient to run our motor driver and motor and then would be stepped down to 3.3V for our microcontroller and other components. We deemed this the best option and most cost effective taking into consideration the money we’ll save from cutting out the 5V switching regulator.
 
 ### OLED Display
 
+#### Table 9 - OLED Display
 [![image](https://user-images.githubusercontent.com/122584348/222216881-797f8d0d-70f1-4c0c-840f-29c408f03614.png)](https://www.digikey.com/en/products/detail/universal-solder-electronics-ltd/OLED-128x64-1-3-I2C/16822118)
 
 The reason we went with option 1 was because of the price and the I2C protocol. We’ve been informed that the I2C protocol is easiest when coding an LCD screen. We also determined that our final product will be relatively small so the small size of the OLED will be perfect for our device.
@@ -476,6 +471,7 @@ Gathering the information provided by each component's datasheet and additionall
 
 ![Power Budget 1](./images/design-ideation-images/Power_Budget_1.JPG "Power Budget Image 1")
 ![Power Budget 2](./images/design-ideation-images/Power_Budget_2.JPG "Power Budget Image 2")
+#### Figure 16 - Power Budget
 
 There are eight major components involved that draw power from the power subsystem. Out of all of them, it seems the two digital sensors draw a minute amount of current; just a few microamps each. On the opposite side of the spectrum, the motor draws the most. The associated motor controller draws only one-fifth of that current. The ESP32 module would take up 300 mA with the PIC itself following at 200 mA. Lastly, the voltage regulators for the 3.3 V and 5 V rails would consume 75 mA. It was important to know how this would all affect our project's functionality, so the template was able to calculate the current available for us. We would enter the values found for each of these components involved in the power subsystem into the template, and the remaining current would be given. This also helped us determine how efficient different battery selections would be for this design along with how long they would last if left continuously running.
 
@@ -488,6 +484,7 @@ In order to narrow down the vast pool of 8 bit microcontrollers, we first identi
 
 Next, we used the Microchip Parametric Search Tool to search for 8 bit microcontrollers that met, at a minimum all of our project-specific requirements. We referenced the datasheet to collect specs on each microcontroller, then put them into a table for evaluation. A copy of the table is below.
 
+#### Table 10 - Microcontroller Selection
 ![Microcontroller Selection Table 1](./images/design-ideation-images/MCUSelect1.png "Microcontroller Selection Table 1")
 ![Microcontroller Selection Table 2](./images/design-ideation-images/MCUSelect2.png "Microcontroller Selection Table 2")
 ![Microcontroller Selection Table 3](./images/design-ideation-images/MCUSelect3.png "Microcontroller Selection Table 3")
@@ -498,6 +495,7 @@ At first, we had little idea what to look for in a microcontroller, and even les
  The first MCU we researched was essentially randomly chosen - of the several dozen chips that could meet our project requirements, we just happened to select the [PIC18F45J10](https://www.microchip.com/en-us/product/PIC18F44J10). This was our first experience combing through microchip datasheets, and so we felt we wanted to get a little more experience. Since the PIC18F45J10 was rather small and minimal, the next chip we analyzed was at the other end of the spectrum. We chose the hugely powerful [PIC18F67K40](https://www.microchip.com/en-us/product/PIC18F67K40). This behemoth had the capability to everything our projcet required, five times over. We ultimately decided that it was too much. The final product, the [PIC18LF27K40](https://www.microchip.com/en-us/product/PIC18F27K40#), hit the goldilocks zone for us. It had all of the required peripherals and just a few extra pins, in a reasonably sized package. However, one thing that really sold us on the PIC18LF27K40 was its ability to remap peripherals onto many pins. This would allow us lots of flexibility with our pin mapping and potential solutions to any mistakes made. We also verifiend it was compatible with MCC and MPLAB X IDE. We ended up choosing the PIC18LF27K40 as our final MCU choice.
 
  ![PIC18LF27K40 Microcontroller](./images/design-ideation-images/PIC18LF27K40.png "PIC18LF27K40")
+ #### Figure 17 - PIC18F27K40
 
 &nbsp;
 
@@ -511,6 +509,7 @@ In order to model and lay out the overall framework and architecture of the code
 
 ### Software Implementation UML Activity Diagram
 [![Team 304 Software Implementation UML Diagram](./images/design-ideation-images/Software_Diagram_Final.jpg "Software Implementation UML Activity Diagram")](./images/design-ideation-images/Software_Diagram_Final.pdf "Software Implementation UML Activity Diagram")
+#### Figure 18 - Software Diagram
 
 [Click the diagram image for PDF view]
 
@@ -534,9 +533,25 @@ By providing these different modes of operation, the program allows for greater 
 
 Our team carefully considered the suite of features that our hardware could theoretically be used for and aimed to provide as many features as possible with a simple and understandable user interface. The main loop of the program was designed to continuously read data from the temperature and humidity sensors, process that data to adjust the fan's speed, output data over SPI to the motor, and transmit selected data over USART to the LED screen. This was done to ensure that the system was constantly monitoring and adjusting to changes in temperature and humidity, and that users could easily see the current readings on the LED screen. The menu subloop was implemented to provide users with a way to access and customize different settings on the product, so as to increase the product's flexibility and user-friendliness. The three different modes of the menu system were designed to provide users with different options based on their needs, such as viewing current or historical weather data. Calibration of the device was deemed a necessary option to ensure that users could trust the data provided by the system and make informed decisions based on that data. We also wanted the user interface to be simple, intuitive, and responsive. To make the product more user-friendly and accessible to a wider range of users, we wanted the menu system to be easy to navigate and understand.
 
-<!--- Further elaborate on how this software implementation fulfills user needs and req's -->
+The diagram here depicts how the user needs and product requirements are fulfilled. It outlines the ability to measure humidity and temperature, sensing the environment around it. The separate menus provide multiple functionalities while consuming low amounts of power. A high duty-cycle can be used while operating the device's fan. The sensors and flow of operation allow for consistent readings that people can see easily with a backlit display. Digital graphs can be provided through the use of the ESP32 and the independent MQTT server, making it very useful for users to obtain relevant information and see the trends within the data. Being connected through Wi-Fi enables the device to obtain time and date information if so desired.
 
-<!--- Add numbered list of top 5 changes made to software implementation -->
+For more information regarding the MQTT topics and the user-designed code used to run the device, refer to [Appendix E - MQTT Topic Table & Code](./Appendix-E.md)
+
+### Top 5 Software Changes
+
+1. Push button for menu system uses interrupt. Since our main loop has several wait statements, which block other code execution, we found that pressing the menu button was hit or miss in regards to actually incrementing the menu index. The solution to this was to set up the pin to interrupt on change. We also included a debounce function in the interrupt handler callback function.
+
+2. Menu system simplified to a welcome screen and a current sensor measurements screen. This was mainly due to time pressure to turn in a minimum viable product. The max and min temperature view was removed, since the topic history and graph is available on the MQTT Explorer app. We also removed the ability to add an offset to the temperature and humidity readings, due to the complexity of such a feature.
+
+3. The menu system is handled via Python code in the ESP32, instead of on the PIC as originally planned. This change simplified the menu implementation, as the only effect the menu system has is displaying data to the OLED, which is already handled in the ESP32. 
+
+4. We are now publishing on multiple topics(Temperature, Humidity, FanSpeed, and Menu) instead of just one topic (TempHum) with all the data combined. This simplified data parsing and debugging, and was not difficult to implement. Additionally, since the messages published to MQTT are now number data types, not strings or arrays, a graph of each message value can be viewed in the MQTT Explorer app.
+
+5. No longer recording max and min temperatures and humidities. The necessity to compare each value from the sensor readings with the historical maximum and minimum values was removed due to the omission of the max/min view feature.
+
+### Software Version 2.0
+
+If we had more time to make improvements to our software, it would've been to implement the original menus to help with obtaining max and min values of the temperature and humidity readings. It also would've allowed the user to manually set the fan directly from the device instead of just setting it through the server. Having multiple menus would also warrant the use of both buttons as originally intended. Being able to offset the readings of the humidity and temperature sensors would also be ideal to calibrate the device if necessary. By the time of the showcase, the device was operating, although in a delicate fashion; a power cycle could throw off the functionality and can be finicky to get working again. Having more time, we would've explored the reasoning behind this to correct that error, stabilize its performance, and be more comfortable with enclosing the entire project in its shell. 
 
 &nbsp;
 
@@ -545,6 +560,8 @@ Our team carefully considered the suite of features that our hardware could theo
 With all of the components selected for the project, the next step was to put them all together in a complete and comprehensive schematic. The schematic was split into parts to clearly depict the different subsystems involved.
 
 [![Team 304 Schematic](./images/design-ideation-images/TEAM304FINALSCHEMATIC.jpg "Hardware Implementation JPG Image")](./images/design-ideation-images/TEAM304FINALSCHEMATIC.pdf "Hardware Implementation")
+#### Figure 19 - Project Schematic
+
 [Click the schematic image for PDF view]
 
 We begin by looking at the PIC18 component, the microprocessor that will run the entirety of the design. It is here where the sensors, actuator, buttons, display, potentiometer, and ESP32 module will operate from. The sensors depicted here utilize the I2C communication protocol while the motor controller uses the SPI communication protocol, satisfying the project's requirements thus far. There would also be an ESP32 module which would serve as the means for data exchange via bluetooth; another requirement satisfied. The combined components of the OLED display, pushbuttons and potentiometer wouldn't count towards the project's required subsystems, but would prove beneficial and important to the overall function of this project. The power subsystem would work under a switching voltage regulator setup between a 3.3 V and 5 V regulator setup to provide to the other subsystems, all hooked up to a couple of 3.7 V batteries for power.
@@ -552,12 +569,18 @@ We begin by looking at the PIC18 component, the microprocessor that will run the
 After the schematic was finalized, we created our team PCB design of the schematic.
 
 ![Team 304 PCB Top Design](./images/design-ideation-images/Top_PCB_Design.png "Team 304 PCB Top Design")
+#### Figure 20 - Top PCB Design
+
 ![Team 304 PCB Bottom Design](./images/design-ideation-images/Bottom_PCB_Design.png "Team 304 PCB Bottom Design")
+#### Figure 21 - Bottom PCB Design
 
 This is what team's PCB looked like after being manufactured and assembled.
 
 ![Team 304 Physical PCB Top Design](./images/design-ideation-images/Top_PCB_Design_Physical.png "Team 304 Physical PCB Top Design")
+#### Figure 22 - Top Physical PCB
+
 ![Team 304 Physical PCB Bottom Design](./images/design-ideation-images/Bottom_PCB_Design_Physical.png "Team 304 Physical PCB Bottom Design")
+#### Figure 23 - Bottom Physical PCB
 
 Our schematic and final design fulfills almost all of the user needs and requirements. The board runs on two rechargeable 3.7 Lithium Ion batteries in series which combined provide 7.4V of power. We then step the voltage down to 5V to run the motor and down to 3.3V to run the PIC, temperature sensor, humidity sensor, OLED, and ESP32 module. The two batteries combined provide an excellent power source with good battery longevity.
 Our design provides a user-friendly interface with a menu system. In the menu, the user will have access to multiple functions such as the current humidity and temperature readings, the max and minimum humidity and temperature readings, and an option to set the motor fan speed. The fan does an excellent job of cooling down the internal electrical components when it gets too hot which allows the device to function in a wide range of climate conditions. There is also a grill in front of the fan to provide protection from anything that could damage the motor.
@@ -566,15 +589,17 @@ The sensors are extremely compact and are the two smallest IC’s on the entire 
 The PIC microcontroller does an excellent job of meeting the project needs. It is very power efficient and overall, the device has minimal power requirements. The PIC provides multiple menu functions and informs the user of the humidity and temperature readings.
 In summary, the device is sleek, hand held, light weight, transportable, durable and has a solid enclosure. It meets our project requirements, user requirements and meets our personal expectations for the project. 
 
-
-This design sought to address more specific user needs and requirements that were listed during the User Needs, Benchmarking and Requirements portion. Out of 70 unique user needs that were identified by the team, this was the list of relevant user needs that were identified by the team that this design satisfies, all of them being sorted according to subsystem.
-![Design User Needs](./images/design-ideation-images/Selected_Design_User_Needs_Table.JPG "Selected Design User Needs")
-
 For the bill of materials of this design, please refer to [Appendix D - Bill of Materials](./Appendix-D.md).
 
 ### Hardware Version 2.0
 
 Two areas that will need improvement are the traces for the motor driver and the temperature sensor. There was an error on the board where the DIR pin was tied to 5V and pulled high. This limited our ability to change the direction of the motor. In our application, the motor only needed to spin one way so this wasn’t a major drawback for our final design. Another error we discovered is that there was an error on the board where the temperature sensor traces were not connected correctly to the PIC or to power. This shorted the sensor so in the future we will need to revise the footprint and trace pathing for the temperature sensor. Another area we could improve is providing more space for terminal blocks to tie in power and the motor leads. The terminal blocks we are currently using hang over the PCB and squish the top of some of the surface mount parts. We ended up removing them and soldering jumpers to the board but in the future, we would design the board to provide more space to solder on terminal boxes. Last but not least, we had already designed the OLED to connect directly to our microcontroller before we performed the OLED ESP32 ICC. In the future, we will design the OLED to connect to the ESP32 directly. We ended up having to solder jumpers to the header pins for the ESP32 module which functions for now but we will update the board in the future.
+
+## System Verification
+
+By the conclusion of the project, the team was able to verify functionality of every subsystem minus the temperature sensor. Due to time constraints, the temperature sensor was unable to be replaced, but this was remedied using the double functionality of the humidity sensor which could also measure temperature. Through this, the team was still able to obtain both temperature and humidity readings for the project. After every subsystem was reviewed, this is what the verification table yielded for the team.
+![Final Verification Table](./images/design-ideation-images/Final_Verification_Table.JPG "Final Verification Table")
+#### Figure 24 - Verification Table
 
 ## Lessons Learned
 
@@ -593,5 +618,25 @@ Two areas that will need improvement are the traces for the motor driver and the
 - Take note when a provided example schematic on a datasheet says it is not guaranteed to function correctly. Test it to determine what changes it may require before moving forward with it.
 
 - Do not commit to a circuit subsystem on a PCB without knowing that it works. Rerouting traces on a manufactured board is significantly more difficult than redesigning it with a working schematic beforehand.
+
+- Having a design review really helped in spotting specific issues within the various facets of the project. The feedback received from the review assisted in finding several flaws that would have hindered or prevented functionality of the project.
+
+- We learned the importance of in-depth peer reviews. We didn’t do very in-depth peer reviews of our final team PCB and we discovered a few errors at the last minute that resulted in one of our subsystems not even working and a second that had half functionality. Do as much in depth peer review as possible.
+
+## Recommendations for Future Students
+
+1. When working with Cadence, look at all of the articles provided with the Cadence tag. It will take significantly less time to read through them than to correct mistakes post-design.
+
+2. If your coding abilities are rusty, especially in C, it will benefit you immensely to get a refresher for the homework and ICCs.
+
+3. If you are unable to get a full checkoff, even if it is late, it is better to get a small portion of points than none at all. With the amount of points available in this course, missing them does add up over time.
+
+4. Peer review each other's schematics and PCB designs. We rushed through our schematic and PCB reviews and were caught on the file board with a couple trace and footprint errors. The more in-depth peer reviews the better.
+
+5. When presenting to reviewers, professors, classmates, and anyone else, provide as many visuals and accessibility as possible. Clicking figures that redirect someone to a full pdf or high resolution image are very helpful when reviewing reports. Providing QR codes to websites and team reports are extremely helpful in order to avoid having to read and type in URL links.
+
+&nbsp;
+
+&nbsp;
 
 [Back to top](#top)
