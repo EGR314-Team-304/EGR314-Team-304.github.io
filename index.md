@@ -5,8 +5,6 @@ Team 304 Homepage:
 
 &nbsp;
 
-| [Previous Canvas Submissions](./previous_submissions.md) |
-
 # Remote Weather Station
 
 ## Team 304  
@@ -27,5 +25,8 @@ Team 304 Homepage:
 &nbsp;
 
 Jump to: [Appendix A - Team Organization](./Appendix-A.md) **·** [Appendix B - User Needs, Benchmarking and Requirements](./Appendix-B.md) **·** [Appendix C - Component Selection](./Appendix-C.md) **·** [Appendix D - Bill of Materials](./Appendix-D.md)
+
+
+| [Previous Canvas Submissions](./previous_submissions.md) |
 
 Created: January 23rd, 2023
